@@ -1,0 +1,1341 @@
+Log file created on Fri Feb 22 19:18:31 MST 2019
+IMPORTANT:
+Because updating this file after every log message would kill
+performance, it will be *incomplete* unless you invoke the
+Utilities->Troubleshooting->Update Activity Log on Disk command!
+7:18:31 PM [main] [message] Log: When reporting bugs, please include the following information:
+7:18:31 PM [main] [message] Log: java.version=1.8.0_191
+7:18:31 PM [main] [message] Log: java.vm.version=25.191-b12
+7:18:31 PM [main] [message] Log: java.vm.name=OpenJDK 64-Bit Server VM
+7:18:31 PM [main] [message] Log: java.runtime.version=1.8.0_191-8u191-b12-2ubuntu0.18.04.1-b12
+7:18:31 PM [main] [message] Log: java.runtime.name=OpenJDK Runtime Environment
+7:18:31 PM [main] [message] Log: java.vendor=Oracle Corporation
+7:18:31 PM [main] [message] Log: java.compiler=null
+7:18:31 PM [main] [message] Log: os.name=Linux
+7:18:31 PM [main] [message] Log: os.version=4.15.0-44-generic
+7:18:31 PM [main] [message] Log: os.arch=amd64
+7:18:31 PM [main] [message] Log: user.home=/home/pkt
+7:18:31 PM [main] [message] Log: java.home=/usr/lib/jvm/java-8-openjdk-amd64/jre
+7:18:31 PM [main] [message] Log: java.class.path=/home/pkt/Documents/EclipseWorkspace/jedit-5-5-0/build/jedit.jar
+7:18:31 PM [main] [message] jEdit: starting with command line arguments: -settings=/home/pkt/Documents/EclipseWorkspace/jedit-5-5-0/build/settings
+7:18:31 PM [main] [debug] jEdit: before splash screen activation:174 ms
+7:18:31 PM [main] [debug] jEdit: after splash screen activation:316 ms
+7:18:31 PM [main] [notice] jEdit: jEdit version 5.5.0
+7:18:31 PM [main] [message] jEdit: Settings directory is /home/pkt/Documents/EclipseWorkspace/jedit-5-5-0/build/settings
+7:18:31 PM [main] [message] jEdit: jEdit home directory is /home/pkt/Documents/EclipseWorkspace/jedit-5-5-0/build
+7:18:31 PM [main] [debug] SplashScreen: init:22/153ms
+7:18:31 PM [main] [debug] SplashScreen: init system properties:15/168ms
+7:18:31 PM [main] [message] BeanShell: Beanshell Init
+7:18:31 PM [main] [debug] SplashScreen: init beanshell:24/192ms
+7:18:31 PM [main] [debug] SplashScreen: loading site properties:1/193ms
+7:18:31 PM [main] [debug] SplashScreen: loading user properties:2/195ms
+7:18:31 PM [main] [debug] GUIUtilities: Icon theme set to: tango
+7:18:31 PM [main] [debug] GUIUtilities: Loading icon theme from: jeditresource:/org/gjt/sp/jedit/icons/themes/tango/
+7:18:31 PM [main] [debug] SplashScreen: init GUI:2/197ms
+7:18:31 PM [main] [debug] EditServer: jEdit server started on port 41077
+7:18:31 PM [main] [debug] EditServer: Authorization key is 148636580
+7:18:31 PM [main] [debug] SplashScreen: init server:4/201ms
+7:18:31 PM [main] [debug] jEdit: initPLAF non-edt old=javax.swing.plaf.metal.MetalLookAndFeel requested=null new=javax.swing.plaf.metal.MetalLookAndFeel
+7:18:31 PM [main] [debug] SplashScreen: init look and feel:2/203ms
+7:18:31 PM [main] [debug] SplashScreen: init VFS Manager:1/204ms
+7:18:31 PM [main] [debug] ActionSet: Loading actions from jar:file:/home/pkt/Documents/EclipseWorkspace/jedit-5-5-0/build/jedit.jar!/org/gjt/sp/jedit/actions.xml
+7:18:31 PM [main] [debug] DockableWindowManager: Loading dockables from jar:file:/home/pkt/Documents/EclipseWorkspace/jedit-5-5-0/build/jedit.jar!/org/gjt/sp/jedit/dockables.xml
+7:18:31 PM [main] [debug] SplashScreen: init resources:67/271ms
+7:18:31 PM [main] [debug] KeymapManagerImpl: copyKeymap(jEdit,imported)
+7:18:31 PM [main] [debug] KeymapManagerImpl: Copying /home/pkt/Documents/EclipseWorkspace/jedit-5-5-0/build/keymaps/jEdit_keys.props to /home/pkt/Documents/EclipseWorkspace/jedit-5-5-0/build/settings/keymaps/imported_keys.props
+7:18:31 PM [AWT-EventQueue-1] [debug] EditBus: SearchSettingsChanged[source=null]
+7:18:31 PM [main] [debug] SplashScreen: Migrate keymaps:25/296ms
+7:18:31 PM [main] [notice] jEdit: Loading plugins from /home/pkt/Documents/EclipseWorkspace/jedit-5-5-0/build/jars
+7:18:31 PM [main] [debug] PluginJAR: Opening /home/pkt/Documents/EclipseWorkspace/jedit-5-5-0/build/jars/QuickNotepad.jar
+7:18:31 PM [main] [debug] ActionSet: Loading actions from jeditresource:/QuickNotepad.jar!/actions.xml
+7:18:31 PM [main] [debug] DockableWindowManager: Loading dockables from jeditresource:/QuickNotepad.jar!/dockables.xml
+7:18:31 PM [main] [debug] PluginJAR: Writing /home/pkt/Documents/EclipseWorkspace/jedit-5-5-0/build/settings/jars-cache/QuickNotepad.jar.summary
+7:18:31 PM [AWT-EventQueue-1] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,version=5.0,source=/home/pkt/Documents/EclipseWorkspace/jedit-5-5-0/build/jars/QuickNotepad.jar,class=QuickNotepadPlugin]
+7:18:31 PM [main] [notice] jEdit: Loading plugins from /home/pkt/Documents/EclipseWorkspace/jedit-5-5-0/build/settings/jars
+7:18:31 PM [main] [debug] SplashScreen: init plugins:16/312ms
+7:18:31 PM [main] [debug] SplashScreen: init history model:2/314ms
+7:18:31 PM [main] [debug] SplashScreen: init buffer history:2/316ms
+7:18:31 PM [main] [debug] SplashScreen: init killring:2/318ms
+7:18:31 PM [main] [message] CheckFileStatus: Performing migration step: checkFileStatus
+7:18:31 PM [main] [debug] jEdit: initPLAF non-edt old=javax.swing.plaf.metal.MetalLookAndFeel requested=null new=javax.swing.plaf.metal.MetalLookAndFeel
+7:18:31 PM [main] [debug] jEdit: SOCKS proxy disabled
+7:18:31 PM [main] [debug] jEdit: HTTP proxy disabled
+7:18:31 PM [AWT-EventQueue-1] [debug] EditBus: PropertiesChanged[source=null]
+7:18:31 PM [main] [debug] SplashScreen: init various properties:20/338ms
+7:18:31 PM [main] [message] jEdit: Loading mode catalog file /home/pkt/Documents/EclipseWorkspace/jedit-5-5-0/build/modes/catalog
+7:18:31 PM [main] [message] jEdit: Loading mode catalog file /home/pkt/Documents/EclipseWorkspace/jedit-5-5-0/build/settings/modes/catalog
+7:18:31 PM [main] [debug] SplashScreen: init modes:36/374ms
+7:18:31 PM [main] [debug] SplashScreen: activate plugins:5/379ms
+7:18:31 PM [main] [debug] Macros: Registered beanshell macro handler
+7:18:31 PM [AWT-EventQueue-1] [debug] EditBus: DynamicMenuChanged[menu=macros,source=null]
+7:18:31 PM [main] [debug] SplashScreen: init macros:8/387ms
+7:18:31 PM [main] [message] BeanShell: Running script /home/pkt/Documents/EclipseWorkspace/jedit-5-5-0/build/startup/startup.bsh
+7:18:31 PM [main] [notice] jEdit$5: Loading edit mode /home/pkt/Documents/EclipseWorkspace/jedit-5-5-0/build/modes/text.xml
+7:18:31 PM [main] [debug] String: BeanShell interpreter version 2.0b4-jedit
+7:18:31 PM [main] [debug] SplashScreen: run startup scripts:83/470ms
+7:18:31 PM [main] [debug] SplashScreen: run startup scripts:83/470ms
+7:18:31 PM [main] [debug] SplashScreen: run startup scripts:84/471ms
+7:18:31 PM [main] [debug] jEdit: main done:665 ms
+7:18:31 PM [AWT-EventQueue-1] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=Untitled-1 (~/Documents/EclipseWorkspace/jedit-5-5-0/)]
+7:18:31 PM [AWT-EventQueue-1] [debug] EditBus: BufferUpdate[what=CREATED,view=null,source=Untitled-1 (~/Documents/EclipseWorkspace/jedit-5-5-0/)]
+7:18:31 PM [AWT-EventQueue-1] [debug] EditBus: BufferUpdate[what=LOAD_STARTED,view=null,source=Untitled-1 (~/Documents/EclipseWorkspace/jedit-5-5-0/)]
+7:18:31 PM [AWT-EventQueue-1] [debug] EditBus: BufferUpdate[what=LOADED,view=null,source=Untitled-1 (~/Documents/EclipseWorkspace/jedit-5-5-0/)]
+7:18:31 PM [AWT-EventQueue-1] [debug] BufferSet: 1653104722: addBufferSetListener org.gjt.sp.jedit.EditPane[inactive]
+7:18:32 PM [AWT-EventQueue-1] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[inactive]]
+7:18:32 PM [AWT-EventQueue-1] [debug] BufferSet: 1653104722 addBufferAt(Untitled-1 (~/Documents/EclipseWorkspace/jedit-5-5-0/),-1)
+7:18:32 PM [AWT-EventQueue-1] [debug] BufferSet: 1653104722: Buffer added Untitled-1 (~/Documents/EclipseWorkspace/jedit-5-5-0/) at 0
+7:18:32 PM [AWT-EventQueue-1] [debug] EditBus: EditPaneUpdate[what=CREATED,source=org.gjt.sp.jedit.EditPane[inactive]]
+7:18:32 PM [AWT-EventQueue-1] [debug] EditBus: ViewUpdate[what=CREATED,source=org.gjt.sp.jedit.View[active]]
+7:18:32 PM [jEdit Worker #0] [error] HelpTOCLoader: java.io.FileNotFoundException: /home/pkt/Documents/EclipseWorkspace/jedit-5-5-0/build/doc/whatsnew/toc.xml (No such file or directory)
+7:18:32 PM [jEdit Worker #0] [error] HelpTOCLoader:  at java.io.FileInputStream.open0(Native Method)
+7:18:32 PM [jEdit Worker #0] [error] HelpTOCLoader:  at java.io.FileInputStream.open(FileInputStream.java:195)
+7:18:32 PM [jEdit Worker #0] [error] HelpTOCLoader:  at java.io.FileInputStream.<init>(FileInputStream.java:138)
+7:18:32 PM [jEdit Worker #0] [error] HelpTOCLoader:  at java.io.FileInputStream.<init>(FileInputStream.java:93)
+7:18:32 PM [jEdit Worker #0] [error] HelpTOCLoader:  at sun.net.www.protocol.file.FileURLConnection.connect(FileURLConnection.java:90)
+7:18:32 PM [jEdit Worker #0] [error] HelpTOCLoader:  at sun.net.www.protocol.file.FileURLConnection.getInputStream(FileURLConnection.java:188)
+7:18:32 PM [jEdit Worker #0] [error] HelpTOCLoader:  at java.net.URL.openStream(URL.java:1045)
+7:18:32 PM [jEdit Worker #0] [error] HelpTOCLoader:  at org.gjt.sp.jedit.help.HelpTOCLoader.loadTOC(HelpTOCLoader.java:166)
+7:18:32 PM [jEdit Worker #0] [error] HelpTOCLoader:  at org.gjt.sp.jedit.help.HelpTOCLoader.createTOC(HelpTOCLoader.java:117)
+7:18:32 PM [jEdit Worker #0] [error] HelpTOCLoader:  at org.gjt.sp.jedit.help.HelpTOCPanel$2.run(HelpTOCPanel.java:105)
+7:18:32 PM [jEdit Worker #0] [error] HelpTOCLoader:  at org.gjt.sp.util.TaskManager$MyTask._run(TaskManager.java:258)
+7:18:32 PM [jEdit Worker #0] [error] HelpTOCLoader:  at org.gjt.sp.util.Task.run(Task.java:65)
+7:18:32 PM [jEdit Worker #0] [error] HelpTOCLoader:  at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+7:18:32 PM [jEdit Worker #0] [error] HelpTOCLoader:  at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+7:18:32 PM [jEdit Worker #0] [error] HelpTOCLoader:  at java.lang.Thread.run(Thread.java:748)
+7:18:32 PM [jEdit Worker #0] [error] HelpTOCLoader: java.io.FileNotFoundException: /home/pkt/Documents/EclipseWorkspace/jedit-5-5-0/build/doc/users-guide/toc.xml (No such file or directory)
+7:18:32 PM [jEdit Worker #0] [error] HelpTOCLoader:  at java.io.FileInputStream.open0(Native Method)
+7:18:32 PM [jEdit Worker #0] [error] HelpTOCLoader:  at java.io.FileInputStream.open(FileInputStream.java:195)
+7:18:32 PM [jEdit Worker #0] [error] HelpTOCLoader:  at java.io.FileInputStream.<init>(FileInputStream.java:138)
+7:18:32 PM [jEdit Worker #0] [error] HelpTOCLoader:  at java.io.FileInputStream.<init>(FileInputStream.java:93)
+7:18:32 PM [jEdit Worker #0] [error] HelpTOCLoader:  at sun.net.www.protocol.file.FileURLConnection.connect(FileURLConnection.java:90)
+7:18:32 PM [jEdit Worker #0] [error] HelpTOCLoader:  at sun.net.www.protocol.file.FileURLConnection.getInputStream(FileURLConnection.java:188)
+7:18:32 PM [jEdit Worker #0] [error] HelpTOCLoader:  at java.net.URL.openStream(URL.java:1045)
+7:18:32 PM [jEdit Worker #0] [error] HelpTOCLoader:  at org.gjt.sp.jedit.help.HelpTOCLoader.loadTOC(HelpTOCLoader.java:166)
+7:18:32 PM [jEdit Worker #0] [error] HelpTOCLoader:  at org.gjt.sp.jedit.help.HelpTOCLoader.createTOC(HelpTOCLoader.java:118)
+7:18:32 PM [jEdit Worker #0] [error] HelpTOCLoader:  at org.gjt.sp.jedit.help.HelpTOCPanel$2.run(HelpTOCPanel.java:105)
+7:18:32 PM [jEdit Worker #0] [error] HelpTOCLoader:  at org.gjt.sp.util.TaskManager$MyTask._run(TaskManager.java:258)
+7:18:32 PM [jEdit Worker #0] [error] HelpTOCLoader:  at org.gjt.sp.util.Task.run(Task.java:65)
+7:18:32 PM [jEdit Worker #0] [error] HelpTOCLoader:  at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+7:18:32 PM [jEdit Worker #0] [error] HelpTOCLoader:  at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+7:18:32 PM [jEdit Worker #0] [error] HelpTOCLoader:  at java.lang.Thread.run(Thread.java:748)
+7:18:32 PM [jEdit Worker #0] [error] HelpTOCLoader: java.io.FileNotFoundException: /home/pkt/Documents/EclipseWorkspace/jedit-5-5-0/build/doc/FAQ/toc.xml (No such file or directory)
+7:18:32 PM [jEdit Worker #0] [error] HelpTOCLoader:  at java.io.FileInputStream.open0(Native Method)
+7:18:32 PM [jEdit Worker #0] [error] HelpTOCLoader:  at java.io.FileInputStream.open(FileInputStream.java:195)
+7:18:32 PM [jEdit Worker #0] [error] HelpTOCLoader:  at java.io.FileInputStream.<init>(FileInputStream.java:138)
+7:18:32 PM [jEdit Worker #0] [error] HelpTOCLoader:  at java.io.FileInputStream.<init>(FileInputStream.java:93)
+7:18:32 PM [jEdit Worker #0] [error] HelpTOCLoader:  at sun.net.www.protocol.file.FileURLConnection.connect(FileURLConnection.java:90)
+7:18:32 PM [jEdit Worker #0] [error] HelpTOCLoader:  at sun.net.www.protocol.file.FileURLConnection.getInputStream(FileURLConnection.java:188)
+7:18:32 PM [jEdit Worker #0] [error] HelpTOCLoader:  at java.net.URL.openStream(URL.java:1045)
+7:18:32 PM [jEdit Worker #0] [error] HelpTOCLoader:  at org.gjt.sp.jedit.help.HelpTOCLoader.loadTOC(HelpTOCLoader.java:166)
+7:18:32 PM [jEdit Worker #0] [error] HelpTOCLoader:  at org.gjt.sp.jedit.help.HelpTOCLoader.createTOC(HelpTOCLoader.java:119)
+7:18:32 PM [jEdit Worker #0] [error] HelpTOCLoader:  at org.gjt.sp.jedit.help.HelpTOCPanel$2.run(HelpTOCPanel.java:105)
+7:18:32 PM [jEdit Worker #0] [error] HelpTOCLoader:  at org.gjt.sp.util.TaskManager$MyTask._run(TaskManager.java:258)
+7:18:32 PM [jEdit Worker #0] [error] HelpTOCLoader:  at org.gjt.sp.util.Task.run(Task.java:65)
+7:18:32 PM [jEdit Worker #0] [error] HelpTOCLoader:  at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+7:18:32 PM [jEdit Worker #0] [error] HelpTOCLoader:  at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+7:18:32 PM [jEdit Worker #0] [error] HelpTOCLoader:  at java.lang.Thread.run(Thread.java:748)
+7:18:32 PM [jEdit Worker #0] [notice] HelpTOCLoader: The API docs for jEdit will not be available (reinstall jEdit if you want them)
+7:18:32 PM [AWT-EventQueue-1] [debug] EditBus: EditorStarted[source=null]
+7:18:32 PM [AWT-EventQueue-1] [message] jEdit: Startup complete: 1098 ms
+7:18:32 PM [AWT-EventQueue-1] [debug] EditBus: ViewUpdate[what=VIEW_ACTIVATED,source=org.gjt.sp.jedit.View[active]]
+7:18:32 PM [AWT-EventQueue-1] [debug] jEdit: checkBufferStatus for all buffers
+7:18:32 PM [SwingWorker-pool-1-thread-1] [error] HelpViewer$2: java.io.FileNotFoundException: /home/pkt/Documents/EclipseWorkspace/jedit-5-5-0/build/doc/welcome.html (No such file or directory)
+7:18:32 PM [SwingWorker-pool-1-thread-1] [error] HelpViewer$2:  at java.io.FileInputStream.open0(Native Method)
+7:18:32 PM [SwingWorker-pool-1-thread-1] [error] HelpViewer$2:  at java.io.FileInputStream.open(FileInputStream.java:195)
+7:18:32 PM [SwingWorker-pool-1-thread-1] [error] HelpViewer$2:  at java.io.FileInputStream.<init>(FileInputStream.java:138)
+7:18:32 PM [SwingWorker-pool-1-thread-1] [error] HelpViewer$2:  at java.io.FileInputStream.<init>(FileInputStream.java:93)
+7:18:32 PM [SwingWorker-pool-1-thread-1] [error] HelpViewer$2:  at sun.net.www.protocol.file.FileURLConnection.connect(FileURLConnection.java:90)
+7:18:32 PM [SwingWorker-pool-1-thread-1] [error] HelpViewer$2:  at sun.net.www.protocol.file.FileURLConnection.getInputStream(FileURLConnection.java:188)
+7:18:32 PM [SwingWorker-pool-1-thread-1] [error] HelpViewer$2:  at javax.swing.JEditorPane.getStream(JEditorPane.java:768)
+7:18:32 PM [SwingWorker-pool-1-thread-1] [error] HelpViewer$2:  at javax.swing.JEditorPane.setPage(JEditorPane.java:432)
+7:18:32 PM [SwingWorker-pool-1-thread-1] [error] HelpViewer$2:  at org.gjt.sp.jedit.help.HelpViewer$2.doInBackground(HelpViewer.java:327)
+7:18:32 PM [SwingWorker-pool-1-thread-1] [error] HelpViewer$2:  at org.gjt.sp.jedit.help.HelpViewer$2.doInBackground(HelpViewer.java:300)
+7:18:32 PM [SwingWorker-pool-1-thread-1] [error] HelpViewer$2:  at javax.swing.SwingWorker$1.call(SwingWorker.java:295)
+7:18:32 PM [SwingWorker-pool-1-thread-1] [error] HelpViewer$2:  at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+7:18:32 PM [SwingWorker-pool-1-thread-1] [error] HelpViewer$2:  at javax.swing.SwingWorker.run(SwingWorker.java:334)
+7:18:32 PM [SwingWorker-pool-1-thread-1] [error] HelpViewer$2:  at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+7:18:32 PM [SwingWorker-pool-1-thread-1] [error] HelpViewer$2:  at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+7:18:32 PM [SwingWorker-pool-1-thread-1] [error] HelpViewer$2:  at java.lang.Thread.run(Thread.java:748)
+7:19:49 PM [AWT-EventQueue-1] [debug] JEditTextArea: InputMethodSupport is activated
+7:19:49 PM [AWT-EventQueue-1] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+7:20:01 PM [AWT-EventQueue-1] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+7:21:31 PM [AWT-EventQueue-1] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=null,source=Untitled-1 (~/Documents/EclipseWorkspace/jedit-5-5-0/)]
+7:21:31 PM [jEdit Worker #1] [debug] MiscUtilities: Saving autosave of file "/home/pkt/Documents/EclipseWorkspace/jedit-5-5-0/Untitled-1" to "/home/pkt/Documents/EclipseWorkspace/jedit-5-5-0/#Untitled-1#"
+7:21:38 PM [AWT-EventQueue-1] [debug] EditBus: BufferUpdate[what=LOAD_STARTED,view=org.gjt.sp.jedit.View[active],source=Untitled-2 (~/Documents/EclipseWorkspace/jedit-5-5-0/)]
+7:21:38 PM [AWT-EventQueue-1] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=Untitled-2 (~/Documents/EclipseWorkspace/jedit-5-5-0/)]
+7:21:38 PM [AWT-EventQueue-1] [debug] EditBus: BufferUpdate[what=LOADED,view=org.gjt.sp.jedit.View[active],source=Untitled-2 (~/Documents/EclipseWorkspace/jedit-5-5-0/)]
+7:21:38 PM [AWT-EventQueue-1] [debug] BufferSet: 1653104722 addBufferAt(Untitled-2 (~/Documents/EclipseWorkspace/jedit-5-5-0/),-1)
+7:21:38 PM [AWT-EventQueue-1] [debug] BufferSet: 1653104722: Buffer added Untitled-2 (~/Documents/EclipseWorkspace/jedit-5-5-0/) at 1
+7:21:38 PM [AWT-EventQueue-1] [debug] EditBus: BufferUpdate[what=CREATED,view=org.gjt.sp.jedit.View[active],source=Untitled-2 (~/Documents/EclipseWorkspace/jedit-5-5-0/)]
+7:21:38 PM [AWT-EventQueue-1] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+7:21:38 PM [AWT-EventQueue-1] [debug] EditBus: EditPaneUpdate[what=BUFFER_CHANGED,source=org.gjt.sp.jedit.EditPane[active]]
+7:21:44 PM [AWT-EventQueue-1] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+7:21:48 PM [AWT-EventQueue-1] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+7:21:48 PM [AWT-EventQueue-1] [debug] EditBus: EditPaneUpdate[what=BUFFER_CHANGED,source=org.gjt.sp.jedit.EditPane[active]]
+7:21:48 PM [AWT-EventQueue-1] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+7:21:49 PM [AWT-EventQueue-1] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+7:21:58 PM [AWT-EventQueue-1] [debug] ActionSet: Loading actions from jar:file:/home/pkt/Documents/EclipseWorkspace/jedit-5-5-0/build/jedit.jar!/org/gjt/sp/jedit/browser.actions.xml
+7:22:01 PM [AWT-EventQueue-1] [debug] MiscUtilities: Saving backup of file "/home/pkt/Documents/EclipseWorkspace/jedit-5-5-0/build/settings/perspective.xml" to "/home/pkt/Documents/EclipseWorkspace/jedit-5-5-0/build/settings/settings-backup/perspective.xml~1~"
+7:22:01 PM [jEdit Worker #3] [debug] MiscUtilities: Saving autosave of file "/home/pkt/Documents/EclipseWorkspace/jedit-5-5-0/Untitled-1" to "/home/pkt/Documents/EclipseWorkspace/jedit-5-5-0/#Untitled-1#"
+7:22:03 PM [AWT-EventQueue-1] [debug] EditBus: BufferUpdate[what=SAVING,view=org.gjt.sp.jedit.View[active],source=Untitled-1 (~/Documents/EclipseWorkspace/jedit-5-5-0/)]
+7:22:03 PM [AWT-EventQueue-1] [debug] FileVFS: /home/pkt/Documents/EclipseWorkspace/jedit-5-5-0/Untitled-1 has permissions 00
+7:22:03 PM [AWT-EventQueue-1] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=org.gjt.sp.jedit.View[active],source=Untitled-1 (~/Documents/EclipseWorkspace/jedit-5-5-0/)]
+7:22:03 PM [AWT-EventQueue-1] [debug] EditBus: BufferUpdate[what=SAVED,view=org.gjt.sp.jedit.View[active],source=Untitled-1 (~/Documents/EclipseWorkspace/jedit-5-5-0/)]
+7:22:03 PM [AWT-EventQueue-1] [debug] EditBus: VFSUpdate[path=/home/pkt/Documents/EclipseWorkspace/jedit-5-5-0,source=null]
+7:22:03 PM [AWT-EventQueue-1] [debug] EditBus: VFSUpdate[path=/home/pkt/Documents/EclipseWorkspace/jedit-5-5-0/#Untitled-1#save#,source=null]
+7:22:03 PM [AWT-EventQueue-1] [debug] EditBus: VFSUpdate[path=/home/pkt/Documents/EclipseWorkspace/jedit-5-5-0/Untitled-1,source=null]
+7:22:03 PM [AWT-EventQueue-1] [debug] EditBus: ViewUpdate[what=VIEW_ACTIVATED,source=org.gjt.sp.jedit.View[active]]
+7:22:03 PM [AWT-EventQueue-1] [debug] jEdit: checkBufferStatus for all buffers
+7:22:03 PM [AWT-EventQueue-1] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+7:22:21 PM [AWT-EventQueue-1] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+7:22:21 PM [AWT-EventQueue-1] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+7:22:21 PM [AWT-EventQueue-1] [debug] EditBus: EditPaneUpdate[what=BUFFER_CHANGED,source=org.gjt.sp.jedit.EditPane[active]]
+7:22:21 PM [AWT-EventQueue-1] [notice] jEdit$5: Loading edit mode /home/pkt/Documents/EclipseWorkspace/jedit-5-5-0/build/modes/xml.xml
+7:22:21 PM [AWT-EventQueue-1] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=Untitled-2 (~/Documents/EclipseWorkspace/jedit-5-5-0/)]
+7:22:21 PM [AWT-EventQueue-1] [debug] EditBus: ViewUpdate[what=VIEW_ACTIVATED,source=org.gjt.sp.jedit.View[active]]
+7:22:21 PM [AWT-EventQueue-1] [debug] jEdit: checkBufferStatus for all buffers
+7:22:24 PM [AWT-EventQueue-1] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=null,source=Untitled-2 (~/Documents/EclipseWorkspace/jedit-5-5-0/)]
+7:22:31 PM [jEdit Worker #3] [debug] MiscUtilities: Saving autosave of file "/home/pkt/Documents/EclipseWorkspace/jedit-5-5-0/Untitled-2" to "/home/pkt/Documents/EclipseWorkspace/jedit-5-5-0/#Untitled-2#"
+7:22:36 PM [AWT-EventQueue-1] [debug] EditBus: BufferUpdate[what=SAVING,view=org.gjt.sp.jedit.View[active],source=Untitled-2 (~/Documents/EclipseWorkspace/jedit-5-5-0/)]
+7:22:36 PM [AWT-EventQueue-1] [debug] FileVFS: /home/pkt/Documents/EclipseWorkspace/jedit-5-5-0/Untitled-2 has permissions 00
+7:22:36 PM [AWT-EventQueue-1] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=org.gjt.sp.jedit.View[active],source=Untitled-2 (~/Documents/EclipseWorkspace/jedit-5-5-0/)]
+7:22:36 PM [AWT-EventQueue-1] [debug] EditBus: BufferUpdate[what=SAVED,view=org.gjt.sp.jedit.View[active],source=Untitled-2 (~/Documents/EclipseWorkspace/jedit-5-5-0/)]
+7:22:36 PM [AWT-EventQueue-1] [debug] EditBus: VFSUpdate[path=/home/pkt/Documents/EclipseWorkspace/jedit-5-5-0,source=null]
+7:22:36 PM [AWT-EventQueue-1] [debug] EditBus: VFSUpdate[path=/home/pkt/Documents/EclipseWorkspace/jedit-5-5-0/#Untitled-2#save#,source=null]
+7:22:36 PM [AWT-EventQueue-1] [debug] EditBus: VFSUpdate[path=/home/pkt/Documents/EclipseWorkspace/jedit-5-5-0/Untitled-2,source=null]
+7:22:36 PM [AWT-EventQueue-1] [debug] EditBus: ViewUpdate[what=VIEW_ACTIVATED,source=org.gjt.sp.jedit.View[active]]
+7:22:36 PM [AWT-EventQueue-1] [debug] jEdit: checkBufferStatus for all buffers
+7:22:36 PM [AWT-EventQueue-1] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+7:24:20 PM [AWT-EventQueue-1] [debug] EditBus: BufferUpdate[what=LOAD_STARTED,view=org.gjt.sp.jedit.View[active],source=Untitle1 (~/Documents/EclipseWorkspace/)]
+7:24:20 PM [AWT-EventQueue-1] [debug] BufferSet: 1653104722 addBufferAt(Untitle1 (~/Documents/EclipseWorkspace/),-1)
+7:24:20 PM [AWT-EventQueue-1] [debug] BufferSet: 1653104722: Buffer added Untitle1 (~/Documents/EclipseWorkspace/) at 0
+7:24:20 PM [AWT-EventQueue-1] [debug] EditBus: BufferUpdate[what=CREATED,view=org.gjt.sp.jedit.View[active],source=Untitle1 (~/Documents/EclipseWorkspace/)]
+7:24:20 PM [AWT-EventQueue-1] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+7:24:20 PM [AWT-EventQueue-1] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+7:24:20 PM [AWT-EventQueue-1] [debug] EditBus: EditPaneUpdate[what=BUFFER_CHANGED,source=org.gjt.sp.jedit.EditPane[active]]
+7:24:20 PM [AWT-EventQueue-1] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=Untitle1 (~/Documents/EclipseWorkspace/)]
+7:24:20 PM [AWT-EventQueue-1] [debug] EditBus: BufferUpdate[what=LOADED,view=org.gjt.sp.jedit.View[active],source=Untitle1 (~/Documents/EclipseWorkspace/)]
+7:24:20 PM [AWT-EventQueue-1] [debug] EditBus: ViewUpdate[what=VIEW_ACTIVATED,source=org.gjt.sp.jedit.View[active]]
+7:24:20 PM [AWT-EventQueue-1] [debug] jEdit: checkBufferStatus for all buffers
+7:24:20 PM [AWT-EventQueue-1] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+7:24:26 PM [AWT-EventQueue-1] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+7:24:31 PM [AWT-EventQueue-1] [debug] MiscUtilities: Saving backup of file "/home/pkt/Documents/EclipseWorkspace/jedit-5-5-0/build/settings/perspective.xml" to "/home/pkt/Documents/EclipseWorkspace/jedit-5-5-0/build/settings/settings-backup/perspective.xml~1~"
+7:24:46 PM [AWT-EventQueue-1] [debug] EditBus: ViewUpdate[what=VIEW_ACTIVATED,source=org.gjt.sp.jedit.View[active]]
+7:24:46 PM [AWT-EventQueue-1] [debug] jEdit: checkBufferStatus for all buffers
+7:24:46 PM [AWT-EventQueue-1] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+7:24:54 PM [AWT-EventQueue-1] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+7:24:54 PM [AWT-EventQueue-1] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+7:24:54 PM [AWT-EventQueue-1] [debug] EditBus: EditPaneUpdate[what=BUFFER_CHANGED,source=org.gjt.sp.jedit.EditPane[active]]
+7:24:54 PM [AWT-EventQueue-1] [debug] EditBus: ViewUpdate[what=VIEW_ACTIVATED,source=org.gjt.sp.jedit.View[active]]
+7:24:54 PM [AWT-EventQueue-1] [debug] jEdit: checkBufferStatus for all buffers
+7:24:54 PM [AWT-EventQueue-1] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+7:24:57 PM [AWT-EventQueue-1] [debug] EditBus: BufferUpdate[what=LOAD_STARTED,view=org.gjt.sp.jedit.View[active],source=Untitled-3 (~/Documents/EclipseWorkspace/jedit-5-5-0/)]
+7:24:57 PM [AWT-EventQueue-1] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=Untitled-3 (~/Documents/EclipseWorkspace/jedit-5-5-0/)]
+7:24:57 PM [AWT-EventQueue-1] [debug] EditBus: BufferUpdate[what=LOADED,view=org.gjt.sp.jedit.View[active],source=Untitled-3 (~/Documents/EclipseWorkspace/jedit-5-5-0/)]
+7:24:57 PM [AWT-EventQueue-1] [debug] BufferSet: 1653104722 addBufferAt(Untitled-3 (~/Documents/EclipseWorkspace/jedit-5-5-0/),-1)
+7:24:57 PM [AWT-EventQueue-1] [debug] BufferSet: 1653104722: Buffer added Untitled-3 (~/Documents/EclipseWorkspace/jedit-5-5-0/) at 3
+7:24:57 PM [AWT-EventQueue-1] [debug] EditBus: BufferUpdate[what=CREATED,view=org.gjt.sp.jedit.View[active],source=Untitled-3 (~/Documents/EclipseWorkspace/jedit-5-5-0/)]
+7:24:57 PM [AWT-EventQueue-1] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+7:24:57 PM [AWT-EventQueue-1] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+7:24:57 PM [AWT-EventQueue-1] [debug] EditBus: EditPaneUpdate[what=BUFFER_CHANGED,source=org.gjt.sp.jedit.EditPane[active]]
+7:25:01 PM [AWT-EventQueue-1] [debug] MiscUtilities: Saving backup of file "/home/pkt/Documents/EclipseWorkspace/jedit-5-5-0/build/settings/perspective.xml" to "/home/pkt/Documents/EclipseWorkspace/jedit-5-5-0/build/settings/settings-backup/perspective.xml~1~"
+7:25:02 PM [AWT-EventQueue-1] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=null,source=Untitled-3 (~/Documents/EclipseWorkspace/jedit-5-5-0/)]
+7:25:17 PM [AWT-EventQueue-1] [debug] EditBus: BufferUpdate[what=SAVING,view=org.gjt.sp.jedit.View[active],source=Untitled-3 (~/Documents/EclipseWorkspace/jedit-5-5-0/)]
+7:25:17 PM [AWT-EventQueue-1] [debug] FileVFS: /home/pkt/Documents/EclipseWorkspace/jedit-5-5-0/Untitled-3 has permissions 00
+7:25:17 PM [AWT-EventQueue-1] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=Untitled-3 (~/Documents/EclipseWorkspace/)]
+7:25:17 PM [AWT-EventQueue-1] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=org.gjt.sp.jedit.View[active],source=Untitled-3 (~/Documents/EclipseWorkspace/)]
+7:25:17 PM [AWT-EventQueue-1] [debug] EditBus: BufferUpdate[what=SAVED,view=org.gjt.sp.jedit.View[active],source=Untitled-3 (~/Documents/EclipseWorkspace/)]
+7:25:17 PM [AWT-EventQueue-1] [debug] EditBus: VFSUpdate[path=/home/pkt/Documents/EclipseWorkspace,source=null]
+7:25:17 PM [AWT-EventQueue-1] [debug] EditBus: VFSUpdate[path=/home/pkt/Documents/EclipseWorkspace/#Untitled-3#save#,source=null]
+7:25:17 PM [AWT-EventQueue-1] [debug] EditBus: VFSUpdate[path=/home/pkt/Documents/EclipseWorkspace/Untitled-3,source=null]
+7:25:17 PM [AWT-EventQueue-1] [debug] EditBus: ViewUpdate[what=VIEW_ACTIVATED,source=org.gjt.sp.jedit.View[active]]
+7:25:17 PM [AWT-EventQueue-1] [debug] jEdit: checkBufferStatus for all buffers
+7:25:17 PM [AWT-EventQueue-1] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+7:25:30 PM [AWT-EventQueue-1] [debug] EditBus: ViewUpdate[what=VIEW_ACTIVATED,source=org.gjt.sp.jedit.View[active]]
+7:25:30 PM [AWT-EventQueue-1] [debug] jEdit: checkBufferStatus for all buffers
+7:25:30 PM [AWT-EventQueue-1] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+7:25:30 PM [AWT-EventQueue-1] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=null,source=Untitled-3 (~/Documents/EclipseWorkspace/)]
+7:25:30 PM [AWT-EventQueue-1] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+7:25:31 PM [jEdit Worker #3] [debug] MiscUtilities: Saving autosave of file "/home/pkt/Documents/EclipseWorkspace/Untitled-3" to "/home/pkt/Documents/EclipseWorkspace/#Untitled-3#"
+7:25:34 PM [AWT-EventQueue-1] [debug] EditBus: ViewUpdate[what=VIEW_ACTIVATED,source=org.gjt.sp.jedit.View[active]]
+7:25:34 PM [AWT-EventQueue-1] [debug] jEdit: checkBufferStatus for all buffers
+7:25:34 PM [AWT-EventQueue-1] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+7:26:16 PM [AWT-EventQueue-1] [debug] EditBus: BufferUpdate[what=SAVING,view=org.gjt.sp.jedit.View[active],source=Untitled-3 (~/Documents/EclipseWorkspace/)]
+7:26:16 PM [AWT-EventQueue-1] [debug] FileVFS: /home/pkt/Documents/EclipseWorkspace/Untitled-3 has permissions 00
+7:26:16 PM [AWT-EventQueue-1] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=Untitled-30 (~/Documents/EclipseWorkspace/)]
+7:26:16 PM [AWT-EventQueue-1] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=org.gjt.sp.jedit.View[active],source=Untitled-30 (~/Documents/EclipseWorkspace/)]
+7:26:16 PM [AWT-EventQueue-1] [debug] EditBus: BufferUpdate[what=SAVED,view=org.gjt.sp.jedit.View[active],source=Untitled-30 (~/Documents/EclipseWorkspace/)]
+7:26:16 PM [AWT-EventQueue-1] [debug] EditBus: VFSUpdate[path=/home/pkt/Documents/EclipseWorkspace,source=null]
+7:26:16 PM [AWT-EventQueue-1] [debug] EditBus: VFSUpdate[path=/home/pkt/Documents/EclipseWorkspace/#Untitled-30#save#,source=null]
+7:26:16 PM [AWT-EventQueue-1] [debug] EditBus: VFSUpdate[path=/home/pkt/Documents/EclipseWorkspace/Untitled-30,source=null]
+7:26:16 PM [AWT-EventQueue-1] [debug] EditBus: ViewUpdate[what=VIEW_ACTIVATED,source=org.gjt.sp.jedit.View[active]]
+7:26:16 PM [AWT-EventQueue-1] [debug] jEdit: checkBufferStatus for all buffers
+7:26:16 PM [AWT-EventQueue-1] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+7:26:20 PM [AWT-EventQueue-1] [debug] EditBus: ViewUpdate[what=VIEW_ACTIVATED,source=org.gjt.sp.jedit.View[active]]
+7:26:20 PM [AWT-EventQueue-1] [debug] jEdit: checkBufferStatus for all buffers
+7:26:20 PM [AWT-EventQueue-1] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+7:26:21 PM [AWT-EventQueue-1] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+7:26:26 PM [AWT-EventQueue-1] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+7:26:26 PM [AWT-EventQueue-1] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+7:26:26 PM [AWT-EventQueue-1] [debug] EditBus: RegisterChanged[register=%,source=null]
+7:26:27 PM [AWT-EventQueue-1] [debug] EditBus: RegisterChanged[register=$,source=null]
+7:26:27 PM [AWT-EventQueue-1] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+7:26:27 PM [AWT-EventQueue-1] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=null,source=Untitled-30 (~/Documents/EclipseWorkspace/)]
+7:26:31 PM [jEdit Worker #3] [debug] MiscUtilities: Saving autosave of file "/home/pkt/Documents/EclipseWorkspace/Untitled-30" to "/home/pkt/Documents/EclipseWorkspace/#Untitled-30#"
+7:26:32 PM [AWT-EventQueue-1] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+7:26:32 PM [AWT-EventQueue-1] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+7:26:33 PM [AWT-EventQueue-1] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+7:26:33 PM [AWT-EventQueue-1] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+7:26:34 PM [AWT-EventQueue-1] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+7:26:34 PM [AWT-EventQueue-1] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+7:26:34 PM [AWT-EventQueue-1] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+7:26:34 PM [AWT-EventQueue-1] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+7:26:34 PM [AWT-EventQueue-1] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+7:26:34 PM [AWT-EventQueue-1] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+7:26:37 PM [AWT-EventQueue-1] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+7:26:37 PM [AWT-EventQueue-1] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+7:26:37 PM [AWT-EventQueue-1] [debug] EditBus: RegisterChanged[register=%,source=null]
+7:26:39 PM [AWT-EventQueue-1] [debug] EditBus: RegisterChanged[register=$,source=null]
+7:26:40 PM [AWT-EventQueue-1] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+7:26:40 PM [AWT-EventQueue-1] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+7:26:41 PM [AWT-EventQueue-1] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+7:26:41 PM [AWT-EventQueue-1] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+7:26:41 PM [AWT-EventQueue-1] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+7:26:41 PM [AWT-EventQueue-1] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+7:26:42 PM [AWT-EventQueue-1] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+7:26:42 PM [AWT-EventQueue-1] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+7:26:47 PM [AWT-EventQueue-1] [debug] EditBus: SearchSettingsChanged[source=null]
+7:26:47 PM [AWT-EventQueue-1] [debug] EditBus: SearchSettingsChanged[source=null]
+7:26:47 PM [AWT-EventQueue-1] [debug] EditBus: SearchSettingsChanged[source=null]
+7:26:47 PM [AWT-EventQueue-1] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+7:27:01 PM [jEdit Worker #3] [debug] MiscUtilities: Saving autosave of file "/home/pkt/Documents/EclipseWorkspace/Untitled-30" to "/home/pkt/Documents/EclipseWorkspace/#Untitled-30#"
+7:27:04 PM [AWT-EventQueue-1] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+7:27:07 PM [AWT-EventQueue-1] [debug] EditBus: SearchSettingsChanged[source=null]
+7:27:07 PM [AWT-EventQueue-1] [debug] EditBus: ViewUpdate[what=VIEW_ACTIVATED,source=org.gjt.sp.jedit.View[active]]
+7:27:07 PM [AWT-EventQueue-1] [debug] jEdit: checkBufferStatus for all buffers
+7:27:07 PM [AWT-EventQueue-1] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+7:27:09 PM [AWT-EventQueue-1] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+7:27:10 PM [AWT-EventQueue-1] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+7:27:13 PM [AWT-EventQueue-1] [debug] EditBus: SearchSettingsChanged[source=null]
+7:27:13 PM [AWT-EventQueue-1] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+7:27:29 PM [AWT-EventQueue-1] [debug] EditBus: SearchSettingsChanged[source=null]
+7:27:31 PM [jEdit Worker #3] [debug] MiscUtilities: Saving autosave of file "/home/pkt/Documents/EclipseWorkspace/Untitled-30" to "/home/pkt/Documents/EclipseWorkspace/#Untitled-30#"
+7:27:32 PM [AWT-EventQueue-1] [debug] EditBus: SearchSettingsChanged[source=null]
+7:27:32 PM [AWT-EventQueue-1] [debug] EditBus: DockableWindowUpdate[what=ACTIVATED,dockable=hypersearch-results,source=org.gjt.sp.jedit.gui.DockableWindowManagerImpl[,0,36,960x945,layout=org.gjt.sp.jedit.gui.DockableLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]]
+7:27:32 PM [jEdit Worker #3] [message] HyperSearchRequest: 5 OCCURENCES
+7:28:03 PM [AWT-EventQueue-1] [debug] EditBus: SearchSettingsChanged[source=null]
+7:28:03 PM [AWT-EventQueue-1] [debug] EditBus: ViewUpdate[what=VIEW_ACTIVATED,source=org.gjt.sp.jedit.View[active]]
+7:28:03 PM [AWT-EventQueue-1] [debug] jEdit: checkBufferStatus for all buffers
+7:28:03 PM [AWT-EventQueue-1] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+7:28:04 PM [AWT-EventQueue-1] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+7:28:13 PM [AWT-EventQueue-1] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+7:28:13 PM [AWT-EventQueue-1] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+7:28:22 PM [AWT-EventQueue-1] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+7:28:22 PM [AWT-EventQueue-1] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+7:28:27 PM [AWT-EventQueue-1] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+7:28:27 PM [AWT-EventQueue-1] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+7:28:31 PM [AWT-EventQueue-1] [debug] EditBus: BufferUpdate[what=SAVING,view=org.gjt.sp.jedit.View[active],source=Untitled-30 (~/Documents/EclipseWorkspace/)]
+7:28:31 PM [AWT-EventQueue-1] [debug] FileVFS: /home/pkt/Documents/EclipseWorkspace/Untitled-30 has permissions 0644
+7:28:31 PM [AWT-EventQueue-1] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=org.gjt.sp.jedit.View[active],source=Untitled-30 (~/Documents/EclipseWorkspace/)]
+7:28:31 PM [AWT-EventQueue-1] [debug] EditBus: BufferUpdate[what=SAVED,view=org.gjt.sp.jedit.View[active],source=Untitled-30 (~/Documents/EclipseWorkspace/)]
+7:28:31 PM [AWT-EventQueue-1] [debug] EditBus: VFSUpdate[path=/home/pkt/Documents/EclipseWorkspace,source=null]
+7:28:31 PM [AWT-EventQueue-1] [debug] EditBus: VFSUpdate[path=/home/pkt/Documents/EclipseWorkspace/#Untitled-30#save#,source=null]
+7:28:31 PM [AWT-EventQueue-1] [debug] EditBus: VFSUpdate[path=/home/pkt/Documents/EclipseWorkspace/Untitled-30,source=null]
+7:28:34 PM [AWT-EventQueue-1] [debug] EditBus: SearchSettingsChanged[source=null]
+7:28:34 PM [AWT-EventQueue-1] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+7:28:38 PM [AWT-EventQueue-1] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+7:28:39 PM [AWT-EventQueue-1] [debug] EditBus: SearchSettingsChanged[source=null]
+7:28:39 PM [AWT-EventQueue-1] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+7:28:41 PM [AWT-EventQueue-1] [debug] EditBus: SearchSettingsChanged[source=null]
+7:28:41 PM [AWT-EventQueue-1] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+7:28:43 PM [AWT-EventQueue-1] [debug] EditBus: SearchSettingsChanged[source=null]
+7:28:44 PM [AWT-EventQueue-1] [debug] EditBus: SearchSettingsChanged[source=null]
+7:28:44 PM [AWT-EventQueue-1] [debug] EditBus: DockableWindowUpdate[what=ACTIVATED,dockable=hypersearch-results,source=org.gjt.sp.jedit.gui.DockableWindowManagerImpl[,0,36,960x945,layout=org.gjt.sp.jedit.gui.DockableLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]]
+7:28:50 PM [AWT-EventQueue-1] [debug] EditBus: SearchSettingsChanged[source=null]
+7:28:51 PM [AWT-EventQueue-1] [debug] EditBus: SearchSettingsChanged[source=null]
+7:28:51 PM [AWT-EventQueue-1] [debug] EditBus: DockableWindowUpdate[what=ACTIVATED,dockable=hypersearch-results,source=org.gjt.sp.jedit.gui.DockableWindowManagerImpl[,0,36,960x945,layout=org.gjt.sp.jedit.gui.DockableLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]]
+7:28:51 PM [jEdit Worker #3] [message] HyperSearchRequest: 7 OCCURENCES
+7:28:58 PM [AWT-EventQueue-1] [debug] EditBus: SearchSettingsChanged[source=null]
+7:28:59 PM [AWT-EventQueue-1] [debug] EditBus: SearchSettingsChanged[source=null]
+7:29:02 PM [AWT-EventQueue-1] [debug] EditBus: SearchSettingsChanged[source=null]
+7:29:02 PM [AWT-EventQueue-1] [debug] EditBus: DockableWindowUpdate[what=ACTIVATED,dockable=hypersearch-results,source=org.gjt.sp.jedit.gui.DockableWindowManagerImpl[,0,36,960x945,layout=org.gjt.sp.jedit.gui.DockableLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]]
+7:29:02 PM [jEdit Worker #3] [message] HyperSearchRequest: 6 OCCURENCES
+7:29:19 PM [AWT-EventQueue-1] [debug] EditBus: SearchSettingsChanged[source=null]
+7:29:19 PM [AWT-EventQueue-1] [debug] EditBus: SearchSettingsChanged[source=null]
+7:29:19 PM [AWT-EventQueue-1] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=null,source=Untitled-30 (~/Documents/EclipseWorkspace/)]
+7:29:19 PM [AWT-EventQueue-1] [debug] BufferSet: 1653104722 addBufferAt(Untitled-30 (~/Documents/EclipseWorkspace/),-1)
+7:29:22 PM [AWT-EventQueue-1] [debug] EditBus: SearchSettingsChanged[source=null]
+7:29:22 PM [AWT-EventQueue-1] [debug] EditBus: ViewUpdate[what=VIEW_ACTIVATED,source=org.gjt.sp.jedit.View[active]]
+7:29:22 PM [AWT-EventQueue-1] [debug] jEdit: checkBufferStatus for all buffers
+7:29:22 PM [AWT-EventQueue-1] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+7:29:23 PM [AWT-EventQueue-1] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+7:29:28 PM [AWT-EventQueue-1] [debug] EditBus: BufferUpdate[what=LOAD_STARTED,view=org.gjt.sp.jedit.View[active],source=Untitled-31 (~/Documents/EclipseWorkspace/)]
+7:29:28 PM [AWT-EventQueue-1] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=Untitled-31 (~/Documents/EclipseWorkspace/)]
+7:29:28 PM [AWT-EventQueue-1] [debug] EditBus: BufferUpdate[what=LOADED,view=org.gjt.sp.jedit.View[active],source=Untitled-31 (~/Documents/EclipseWorkspace/)]
+7:29:28 PM [AWT-EventQueue-1] [debug] BufferSet: 1653104722 addBufferAt(Untitled-31 (~/Documents/EclipseWorkspace/),-1)
+7:29:28 PM [AWT-EventQueue-1] [debug] BufferSet: 1653104722: Buffer added Untitled-31 (~/Documents/EclipseWorkspace/) at 4
+7:29:28 PM [AWT-EventQueue-1] [debug] EditBus: BufferUpdate[what=CREATED,view=org.gjt.sp.jedit.View[active],source=Untitled-31 (~/Documents/EclipseWorkspace/)]
+7:29:28 PM [AWT-EventQueue-1] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+7:29:28 PM [AWT-EventQueue-1] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+7:29:28 PM [AWT-EventQueue-1] [debug] EditBus: EditPaneUpdate[what=BUFFER_CHANGED,source=org.gjt.sp.jedit.EditPane[active]]
+7:29:31 PM [AWT-EventQueue-1] [debug] MiscUtilities: Saving backup of file "/home/pkt/Documents/EclipseWorkspace/jedit-5-5-0/build/settings/perspective.xml" to "/home/pkt/Documents/EclipseWorkspace/jedit-5-5-0/build/settings/settings-backup/perspective.xml~1~"
+7:29:31 PM [jEdit Worker #3] [debug] MiscUtilities: Saving autosave of file "/home/pkt/Documents/EclipseWorkspace/Untitled-30" to "/home/pkt/Documents/EclipseWorkspace/#Untitled-30#"
+7:29:38 PM [AWT-EventQueue-1] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=null,source=Untitled-31 (~/Documents/EclipseWorkspace/)]
+7:29:39 PM [AWT-EventQueue-1] [debug] EditBus: BufferUpdate[what=LOAD_STARTED,view=org.gjt.sp.jedit.View[active],source=Untitled-32 (~/Documents/EclipseWorkspace/)]
+7:29:39 PM [AWT-EventQueue-1] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=Untitled-32 (~/Documents/EclipseWorkspace/)]
+7:29:39 PM [AWT-EventQueue-1] [debug] EditBus: BufferUpdate[what=LOADED,view=org.gjt.sp.jedit.View[active],source=Untitled-32 (~/Documents/EclipseWorkspace/)]
+7:29:39 PM [AWT-EventQueue-1] [debug] BufferSet: 1653104722 addBufferAt(Untitled-32 (~/Documents/EclipseWorkspace/),-1)
+7:29:39 PM [AWT-EventQueue-1] [debug] BufferSet: 1653104722: Buffer added Untitled-32 (~/Documents/EclipseWorkspace/) at 5
+7:29:39 PM [AWT-EventQueue-1] [debug] EditBus: BufferUpdate[what=CREATED,view=org.gjt.sp.jedit.View[active],source=Untitled-32 (~/Documents/EclipseWorkspace/)]
+7:29:39 PM [AWT-EventQueue-1] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+7:29:39 PM [AWT-EventQueue-1] [debug] EditBus: EditPaneUpdate[what=BUFFER_CHANGED,source=org.gjt.sp.jedit.EditPane[active]]
+7:29:40 PM [AWT-EventQueue-1] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=null,source=Untitled-32 (~/Documents/EclipseWorkspace/)]
+7:29:41 PM [AWT-EventQueue-1] [debug] EditBus: BufferUpdate[what=LOAD_STARTED,view=org.gjt.sp.jedit.View[active],source=Untitled-33 (~/Documents/EclipseWorkspace/)]
+7:29:41 PM [AWT-EventQueue-1] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=Untitled-33 (~/Documents/EclipseWorkspace/)]
+7:29:41 PM [AWT-EventQueue-1] [debug] EditBus: BufferUpdate[what=LOADED,view=org.gjt.sp.jedit.View[active],source=Untitled-33 (~/Documents/EclipseWorkspace/)]
+7:29:41 PM [AWT-EventQueue-1] [debug] BufferSet: 1653104722 addBufferAt(Untitled-33 (~/Documents/EclipseWorkspace/),-1)
+7:29:41 PM [AWT-EventQueue-1] [debug] BufferSet: 1653104722: Buffer added Untitled-33 (~/Documents/EclipseWorkspace/) at 6
+7:29:41 PM [AWT-EventQueue-1] [debug] EditBus: BufferUpdate[what=CREATED,view=org.gjt.sp.jedit.View[active],source=Untitled-33 (~/Documents/EclipseWorkspace/)]
+7:29:41 PM [AWT-EventQueue-1] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+7:29:41 PM [AWT-EventQueue-1] [debug] EditBus: EditPaneUpdate[what=BUFFER_CHANGED,source=org.gjt.sp.jedit.EditPane[active]]
+7:29:41 PM [AWT-EventQueue-1] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=null,source=Untitled-33 (~/Documents/EclipseWorkspace/)]
+7:29:42 PM [AWT-EventQueue-1] [debug] EditBus: BufferUpdate[what=LOAD_STARTED,view=org.gjt.sp.jedit.View[active],source=Untitled-34 (~/Documents/EclipseWorkspace/)]
+7:29:42 PM [AWT-EventQueue-1] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=Untitled-34 (~/Documents/EclipseWorkspace/)]
+7:29:42 PM [AWT-EventQueue-1] [debug] EditBus: BufferUpdate[what=LOADED,view=org.gjt.sp.jedit.View[active],source=Untitled-34 (~/Documents/EclipseWorkspace/)]
+7:29:42 PM [AWT-EventQueue-1] [debug] BufferSet: 1653104722 addBufferAt(Untitled-34 (~/Documents/EclipseWorkspace/),-1)
+7:29:42 PM [AWT-EventQueue-1] [debug] BufferSet: 1653104722: Buffer added Untitled-34 (~/Documents/EclipseWorkspace/) at 7
+7:29:42 PM [AWT-EventQueue-1] [debug] EditBus: BufferUpdate[what=CREATED,view=org.gjt.sp.jedit.View[active],source=Untitled-34 (~/Documents/EclipseWorkspace/)]
+7:29:42 PM [AWT-EventQueue-1] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+7:29:42 PM [AWT-EventQueue-1] [debug] EditBus: EditPaneUpdate[what=BUFFER_CHANGED,source=org.gjt.sp.jedit.EditPane[active]]
+7:29:48 PM [AWT-EventQueue-1] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+7:29:50 PM [AWT-EventQueue-1] [debug] EditBus: BufferUpdate[what=CLOSING,view=org.gjt.sp.jedit.View[active],source=Untitled-34 (~/Documents/EclipseWorkspace/)]
+7:29:50 PM [AWT-EventQueue-1] [debug] BufferSet: 1653104722: Buffer removed Untitled-34 (~/Documents/EclipseWorkspace/)
+7:29:50 PM [AWT-EventQueue-1] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+7:29:50 PM [AWT-EventQueue-1] [debug] EditBus: EditPaneUpdate[what=BUFFER_CHANGED,source=org.gjt.sp.jedit.EditPane[active]]
+7:29:50 PM [AWT-EventQueue-1] [debug] EditBus: BufferUpdate[what=CLOSED,view=org.gjt.sp.jedit.View[active],source=Untitled-34 (~/Documents/EclipseWorkspace/)]
+7:29:55 PM [AWT-EventQueue-1] [debug] EditBus: BufferUpdate[what=CLOSING,view=org.gjt.sp.jedit.View[active],source=Untitled-33 (~/Documents/EclipseWorkspace/)]
+7:29:55 PM [AWT-EventQueue-1] [debug] BufferSet: 1653104722: Buffer removed Untitled-33 (~/Documents/EclipseWorkspace/)
+7:29:55 PM [AWT-EventQueue-1] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+7:29:55 PM [AWT-EventQueue-1] [debug] EditBus: EditPaneUpdate[what=BUFFER_CHANGED,source=org.gjt.sp.jedit.EditPane[active]]
+7:29:55 PM [AWT-EventQueue-1] [debug] EditBus: BufferUpdate[what=CLOSED,view=org.gjt.sp.jedit.View[active],source=Untitled-33 (~/Documents/EclipseWorkspace/)]
+7:29:55 PM [AWT-EventQueue-1] [debug] EditBus: ViewUpdate[what=VIEW_ACTIVATED,source=org.gjt.sp.jedit.View[active]]
+7:29:55 PM [AWT-EventQueue-1] [debug] jEdit: checkBufferStatus for all buffers
+7:29:57 PM [AWT-EventQueue-1] [debug] EditBus: BufferUpdate[what=CLOSING,view=org.gjt.sp.jedit.View[active],source=Untitled-32 (~/Documents/EclipseWorkspace/)]
+7:29:57 PM [AWT-EventQueue-1] [debug] BufferSet: 1653104722: Buffer removed Untitled-32 (~/Documents/EclipseWorkspace/)
+7:29:57 PM [AWT-EventQueue-1] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+7:29:57 PM [AWT-EventQueue-1] [debug] EditBus: EditPaneUpdate[what=BUFFER_CHANGED,source=org.gjt.sp.jedit.EditPane[active]]
+7:29:57 PM [AWT-EventQueue-1] [debug] EditBus: BufferUpdate[what=CLOSED,view=org.gjt.sp.jedit.View[active],source=Untitled-32 (~/Documents/EclipseWorkspace/)]
+7:29:58 PM [AWT-EventQueue-1] [debug] EditBus: ViewUpdate[what=VIEW_ACTIVATED,source=org.gjt.sp.jedit.View[active]]
+7:29:58 PM [AWT-EventQueue-1] [debug] jEdit: checkBufferStatus for all buffers
+7:30:00 PM [AWT-EventQueue-1] [debug] EditBus: BufferUpdate[what=CLOSING,view=org.gjt.sp.jedit.View[active],source=Untitled-31 (~/Documents/EclipseWorkspace/)]
+7:30:00 PM [AWT-EventQueue-1] [debug] BufferSet: 1653104722: Buffer removed Untitled-31 (~/Documents/EclipseWorkspace/)
+7:30:00 PM [AWT-EventQueue-1] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+7:30:00 PM [AWT-EventQueue-1] [debug] EditBus: EditPaneUpdate[what=BUFFER_CHANGED,source=org.gjt.sp.jedit.EditPane[active]]
+7:30:00 PM [AWT-EventQueue-1] [debug] EditBus: BufferUpdate[what=CLOSED,view=org.gjt.sp.jedit.View[active],source=Untitled-31 (~/Documents/EclipseWorkspace/)]
+7:30:00 PM [AWT-EventQueue-1] [debug] EditBus: ViewUpdate[what=VIEW_ACTIVATED,source=org.gjt.sp.jedit.View[active]]
+7:30:00 PM [AWT-EventQueue-1] [debug] jEdit: checkBufferStatus for all buffers
+7:30:00 PM [AWT-EventQueue-1] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+7:30:01 PM [AWT-EventQueue-1] [debug] MiscUtilities: Saving backup of file "/home/pkt/Documents/EclipseWorkspace/jedit-5-5-0/build/settings/perspective.xml" to "/home/pkt/Documents/EclipseWorkspace/jedit-5-5-0/build/settings/settings-backup/perspective.xml~1~"
+7:30:03 PM [AWT-EventQueue-1] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+7:30:03 PM [AWT-EventQueue-1] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+7:30:03 PM [AWT-EventQueue-1] [debug] EditBus: EditPaneUpdate[what=BUFFER_CHANGED,source=org.gjt.sp.jedit.EditPane[active]]
+7:30:04 PM [AWT-EventQueue-1] [debug] EditBus: BufferUpdate[what=CLOSING,view=org.gjt.sp.jedit.View[active],source=Untitle1 (~/Documents/EclipseWorkspace/)]
+7:30:04 PM [AWT-EventQueue-1] [debug] BufferSet: 1653104722: Buffer removed Untitle1 (~/Documents/EclipseWorkspace/)
+7:30:04 PM [AWT-EventQueue-1] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+7:30:04 PM [AWT-EventQueue-1] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+7:30:04 PM [AWT-EventQueue-1] [debug] EditBus: EditPaneUpdate[what=BUFFER_CHANGED,source=org.gjt.sp.jedit.EditPane[active]]
+7:30:04 PM [AWT-EventQueue-1] [debug] EditBus: BufferUpdate[what=CLOSED,view=org.gjt.sp.jedit.View[active],source=Untitle1 (~/Documents/EclipseWorkspace/)]
+7:30:07 PM [AWT-EventQueue-1] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+7:30:10 PM [AWT-EventQueue-1] [debug] EditBus: BufferUpdate[what=SAVING,view=org.gjt.sp.jedit.View[active],source=Untitled-30 (~/Documents/EclipseWorkspace/)]
+7:30:10 PM [AWT-EventQueue-1] [debug] FileVFS: /home/pkt/Documents/EclipseWorkspace/Untitled-30 has permissions 0644
+7:30:10 PM [AWT-EventQueue-1] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=org.gjt.sp.jedit.View[active],source=Untitled-30 (~/Documents/EclipseWorkspace/)]
+7:30:10 PM [AWT-EventQueue-1] [debug] EditBus: BufferUpdate[what=SAVED,view=org.gjt.sp.jedit.View[active],source=Untitled-30 (~/Documents/EclipseWorkspace/)]
+7:30:10 PM [AWT-EventQueue-1] [debug] EditBus: VFSUpdate[path=/home/pkt/Documents/EclipseWorkspace,source=null]
+7:30:10 PM [AWT-EventQueue-1] [debug] EditBus: VFSUpdate[path=/home/pkt/Documents/EclipseWorkspace/#Untitled-30#save#,source=null]
+7:30:10 PM [AWT-EventQueue-1] [debug] EditBus: VFSUpdate[path=/home/pkt/Documents/EclipseWorkspace/Untitled-30,source=null]
+7:30:15 PM [AWT-EventQueue-1] [debug] BufferPrinter1_7: print buffer /home/pkt/Documents/EclipseWorkspace/Untitled-30
+7:30:15 PM [AWT-EventQueue-1] [debug] JARClassLoader: Would have returned null for getResource(META-INF/services/javax.print.PrintServiceLookup)
+7:30:15 PM [AWT-EventQueue-1] [debug] JARClassLoader: returning(jar:file:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar!/META-INF/services/javax.print.PrintServiceLookup)
+7:30:15 PM [AWT-EventQueue-1] [debug] JARClassLoader: Would have returned null for getResource(META-INF/services/javax.print.StreamPrintServiceFactory)
+7:30:15 PM [AWT-EventQueue-1] [debug] JARClassLoader: returning(jar:file:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar!/META-INF/services/javax.print.StreamPrintServiceFactory)
+7:30:16 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1: java.lang.NullPointerException
+7:30:16 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at org.gjt.sp.jedit.print.PrinterDialog.valueChanged(PrinterDialog.java:491)
+7:30:16 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at org.gjt.sp.jedit.print.PrinterDialog.<init>(PrinterDialog.java:175)
+7:30:16 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at org.gjt.sp.jedit.print.BufferPrinter1_7.print(BufferPrinter1_7.java:75)
+7:30:16 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+7:30:16 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+7:30:16 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+7:30:16 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at java.lang.reflect.Method.invoke(Method.java:498)
+7:30:16 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at org.gjt.sp.jedit.bsh.Reflect.invokeMethod(Reflect.java:135)
+7:30:16 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at org.gjt.sp.jedit.bsh.Reflect.invokeStaticMethod(Reflect.java:99)
+7:30:16 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at org.gjt.sp.jedit.bsh.Name.invokeMethod(Name.java:871)
+7:30:16 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at org.gjt.sp.jedit.bsh.BSHMethodInvocation.eval(BSHMethodInvocation.java:75)
+7:30:16 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at org.gjt.sp.jedit.bsh.BSHPrimaryExpression.eval(BSHPrimaryExpression.java:102)
+7:30:16 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at org.gjt.sp.jedit.bsh.BSHPrimaryExpression.eval(BSHPrimaryExpression.java:47)
+7:30:16 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at org.gjt.sp.jedit.bsh.BSHBlock.evalBlock(BSHBlock.java:130)
+7:30:16 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at org.gjt.sp.jedit.bsh.BSHBlock.eval(BSHBlock.java:80)
+7:30:16 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at org.gjt.sp.jedit.bsh.BshMethod.invokeImpl(BshMethod.java:362)
+7:30:16 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at org.gjt.sp.jedit.bsh.BshMethod.invoke(BshMethod.java:258)
+7:30:16 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at org.gjt.sp.jedit.bsh.BshMethod.invoke(BshMethod.java:186)
+7:30:16 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at org.gjt.sp.jedit.BeanShellFacade.runCachedBlock(BeanShellFacade.java:233)
+7:30:16 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at org.gjt.sp.jedit.BeanShell.runCachedBlock(BeanShell.java:439)
+7:30:16 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at org.gjt.sp.jedit.BeanShellAction.invoke(BeanShellAction.java:73)
+7:30:16 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at org.gjt.sp.jedit.gui.InputHandler.invokeAction(InputHandler.java:343)
+7:30:16 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at org.gjt.sp.jedit.jEdit$6.invokeAction(jEdit.java:3619)
+7:30:16 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at org.gjt.sp.jedit.jEdit$6.invokeAction(jEdit.java:3601)
+7:30:16 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at org.gjt.sp.jedit.EditAction$Wrapper.actionPerformed(EditAction.java:225)
+7:30:16 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:2022)
+7:30:16 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2348)
+7:30:16 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:402)
+7:30:16 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:259)
+7:30:16 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:252)
+7:30:16 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at java.awt.AWTEventMulticaster.mouseReleased(AWTEventMulticaster.java:289)
+7:30:16 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at java.awt.AWTEventMulticaster.mouseReleased(AWTEventMulticaster.java:289)
+7:30:16 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at java.awt.AWTEventMulticaster.mouseReleased(AWTEventMulticaster.java:289)
+7:30:16 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at java.awt.Component.processMouseEvent(Component.java:6539)
+7:30:16 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at javax.swing.JComponent.processMouseEvent(JComponent.java:3324)
+7:30:16 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at java.awt.Component.processEvent(Component.java:6304)
+7:30:16 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at java.awt.Container.processEvent(Container.java:2239)
+7:30:16 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at java.awt.Component.dispatchEventImpl(Component.java:4889)
+7:30:16 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at java.awt.Container.dispatchEventImpl(Container.java:2297)
+7:30:16 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at java.awt.Component.dispatchEvent(Component.java:4711)
+7:30:16 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4904)
+7:30:16 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4535)
+7:30:16 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4476)
+7:30:16 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at java.awt.Container.dispatchEventImpl(Container.java:2283)
+7:30:16 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at java.awt.Window.dispatchEventImpl(Window.java:2746)
+7:30:16 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at java.awt.Component.dispatchEvent(Component.java:4711)
+7:30:16 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:760)
+7:30:16 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at java.awt.EventQueue.access$500(EventQueue.java:97)
+7:30:16 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at java.awt.EventQueue$3.run(EventQueue.java:709)
+7:30:16 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at java.awt.EventQueue$3.run(EventQueue.java:703)
+7:30:16 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at java.security.AccessController.doPrivileged(Native Method)
+7:30:16 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+7:30:16 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:84)
+7:30:16 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at java.awt.EventQueue$4.run(EventQueue.java:733)
+7:30:16 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at java.awt.EventQueue$4.run(EventQueue.java:731)
+7:30:16 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at java.security.AccessController.doPrivileged(Native Method)
+7:30:16 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+7:30:16 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at java.awt.EventQueue.dispatchEvent(EventQueue.java:730)
+7:30:16 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at org.GNOME.Accessibility.AtkWrapper$6.dispatchEvent(AtkWrapper.java:715)
+7:30:16 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205)
+7:30:16 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+7:30:16 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+7:30:16 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+7:30:16 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+7:30:16 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+7:30:24 PM [AWT-EventQueue-1] [debug] EditBus: ViewUpdate[what=VIEW_ACTIVATED,source=org.gjt.sp.jedit.View[active]]
+7:30:24 PM [AWT-EventQueue-1] [debug] jEdit: checkBufferStatus for all buffers
+7:30:24 PM [AWT-EventQueue-1] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+7:30:28 PM [AWT-EventQueue-1] [debug] BufferPrinter1_7: print buffer /home/pkt/Documents/EclipseWorkspace/Untitled-30
+7:30:29 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1: java.lang.NullPointerException
+7:30:29 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at org.gjt.sp.jedit.print.PrinterDialog.valueChanged(PrinterDialog.java:491)
+7:30:29 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at org.gjt.sp.jedit.print.PrinterDialog.<init>(PrinterDialog.java:175)
+7:30:29 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at org.gjt.sp.jedit.print.BufferPrinter1_7.print(BufferPrinter1_7.java:75)
+7:30:29 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+7:30:29 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+7:30:29 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+7:30:29 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at java.lang.reflect.Method.invoke(Method.java:498)
+7:30:29 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at org.gjt.sp.jedit.bsh.Reflect.invokeMethod(Reflect.java:135)
+7:30:29 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at org.gjt.sp.jedit.bsh.Reflect.invokeStaticMethod(Reflect.java:99)
+7:30:29 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at org.gjt.sp.jedit.bsh.Name.invokeMethod(Name.java:871)
+7:30:29 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at org.gjt.sp.jedit.bsh.BSHMethodInvocation.eval(BSHMethodInvocation.java:75)
+7:30:29 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at org.gjt.sp.jedit.bsh.BSHPrimaryExpression.eval(BSHPrimaryExpression.java:102)
+7:30:29 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at org.gjt.sp.jedit.bsh.BSHPrimaryExpression.eval(BSHPrimaryExpression.java:47)
+7:30:29 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at org.gjt.sp.jedit.bsh.BSHBlock.evalBlock(BSHBlock.java:130)
+7:30:29 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at org.gjt.sp.jedit.bsh.BSHBlock.eval(BSHBlock.java:80)
+7:30:29 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at org.gjt.sp.jedit.bsh.BshMethod.invokeImpl(BshMethod.java:362)
+7:30:29 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at org.gjt.sp.jedit.bsh.BshMethod.invoke(BshMethod.java:258)
+7:30:29 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at org.gjt.sp.jedit.bsh.BshMethod.invoke(BshMethod.java:186)
+7:30:29 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at org.gjt.sp.jedit.BeanShellFacade.runCachedBlock(BeanShellFacade.java:233)
+7:30:29 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at org.gjt.sp.jedit.BeanShell.runCachedBlock(BeanShell.java:439)
+7:30:29 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at org.gjt.sp.jedit.BeanShellAction.invoke(BeanShellAction.java:73)
+7:30:29 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at org.gjt.sp.jedit.gui.InputHandler.invokeAction(InputHandler.java:343)
+7:30:29 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at org.gjt.sp.jedit.jEdit$6.invokeAction(jEdit.java:3619)
+7:30:29 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at org.gjt.sp.jedit.jEdit$6.invokeAction(jEdit.java:3601)
+7:30:29 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at org.gjt.sp.jedit.EditAction$Wrapper.actionPerformed(EditAction.java:225)
+7:30:29 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:2022)
+7:30:29 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2348)
+7:30:29 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:402)
+7:30:29 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:259)
+7:30:29 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at javax.swing.AbstractButton.doClick(AbstractButton.java:376)
+7:30:29 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at javax.swing.plaf.basic.BasicMenuItemUI.doClick(BasicMenuItemUI.java:842)
+7:30:29 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at javax.swing.plaf.basic.BasicMenuItemUI$Handler.mouseReleased(BasicMenuItemUI.java:886)
+7:30:29 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at java.awt.AWTEventMulticaster.mouseReleased(AWTEventMulticaster.java:289)
+7:30:29 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at java.awt.Component.processMouseEvent(Component.java:6539)
+7:30:29 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at javax.swing.JComponent.processMouseEvent(JComponent.java:3324)
+7:30:29 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at java.awt.Component.processEvent(Component.java:6304)
+7:30:29 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at java.awt.Container.processEvent(Container.java:2239)
+7:30:29 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at java.awt.Component.dispatchEventImpl(Component.java:4889)
+7:30:29 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at java.awt.Container.dispatchEventImpl(Container.java:2297)
+7:30:29 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at java.awt.Component.dispatchEvent(Component.java:4711)
+7:30:29 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4904)
+7:30:29 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4535)
+7:30:29 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4476)
+7:30:29 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at java.awt.Container.dispatchEventImpl(Container.java:2283)
+7:30:29 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at java.awt.Window.dispatchEventImpl(Window.java:2746)
+7:30:29 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at java.awt.Component.dispatchEvent(Component.java:4711)
+7:30:29 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:760)
+7:30:29 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at java.awt.EventQueue.access$500(EventQueue.java:97)
+7:30:29 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at java.awt.EventQueue$3.run(EventQueue.java:709)
+7:30:29 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at java.awt.EventQueue$3.run(EventQueue.java:703)
+7:30:29 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at java.security.AccessController.doPrivileged(Native Method)
+7:30:29 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+7:30:29 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:84)
+7:30:29 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at java.awt.EventQueue$4.run(EventQueue.java:733)
+7:30:29 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at java.awt.EventQueue$4.run(EventQueue.java:731)
+7:30:29 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at java.security.AccessController.doPrivileged(Native Method)
+7:30:29 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+7:30:29 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at java.awt.EventQueue.dispatchEvent(EventQueue.java:730)
+7:30:29 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at org.GNOME.Accessibility.AtkWrapper$6.dispatchEvent(AtkWrapper.java:715)
+7:30:29 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205)
+7:30:29 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+7:30:29 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+7:30:29 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+7:30:29 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+7:30:29 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+7:30:31 PM [AWT-EventQueue-1] [debug] MiscUtilities: Saving backup of file "/home/pkt/Documents/EclipseWorkspace/jedit-5-5-0/build/settings/perspective.xml" to "/home/pkt/Documents/EclipseWorkspace/jedit-5-5-0/build/settings/settings-backup/perspective.xml~1~"
+7:30:51 PM [AWT-EventQueue-1] [debug] EditBus: ViewUpdate[what=VIEW_ACTIVATED,source=org.gjt.sp.jedit.View[active]]
+7:30:51 PM [AWT-EventQueue-1] [debug] jEdit: checkBufferStatus for all buffers
+7:30:51 PM [AWT-EventQueue-1] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+7:31:00 PM [AWT-EventQueue-1] [error] ErrorListDialog$ErrorEntry: /home/pkt/Documents/EclipseWorkspace/jedit-5-5-0/build/doc/users-guide:
+7:31:00 PM [AWT-EventQueue-1] [error] ErrorListDialog$ErrorEntry: Cannot list directory.
+7:31:00 PM [AWT-EventQueue-1] [error] ErrorListDialog$ErrorEntry: /home/pkt/Documents/EclipseWorkspace/jedit-5-5-0/build/doc/FAQ:
+7:31:00 PM [AWT-EventQueue-1] [error] ErrorListDialog$ErrorEntry: Cannot list directory.
+7:31:00 PM [AWT-EventQueue-1] [error] ErrorListDialog$ErrorEntry: /home/pkt/Documents/EclipseWorkspace/jedit-5-5-0/build/doc/whatsnew:
+7:31:00 PM [AWT-EventQueue-1] [error] ErrorListDialog$ErrorEntry: Cannot list directory.
+7:31:00 PM [AWT-EventQueue-1] [debug] HelpIndex: jeditresource:/QuickNotepad.jar!/index.html
+7:31:00 PM [AWT-EventQueue-1] [debug] HelpIndex: jeditresource:/QuickNotepad.jar!/README.txt
+7:31:00 PM [AWT-EventQueue-1] [debug] HelpIndex: jeditresource:/QuickNotepad.jar!/changes40.txt
+7:31:00 PM [AWT-EventQueue-1] [debug] HelpIndex: jeditresource:/QuickNotepad.jar!/changes42.txt
+7:31:00 PM [AWT-EventQueue-1] [debug] HelpIndex: jeditresource:/QuickNotepad.jar!/changes44.txt
+7:31:00 PM [AWT-EventQueue-1] [debug] HelpIndex: jeditresource:/QuickNotepad.jar!/changes50.txt
+7:31:00 PM [AWT-EventQueue-1] [debug] HelpIndex: Indexed 543 words
+7:31:09 PM [AWT-EventQueue-1] [debug] EditBus: ViewUpdate[what=VIEW_ACTIVATED,source=org.gjt.sp.jedit.View[active]]
+7:31:09 PM [AWT-EventQueue-1] [debug] jEdit: checkBufferStatus for all buffers
+7:31:09 PM [AWT-EventQueue-1] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+7:39:27 PM [SwingWorker-pool-1-thread-6] [error] HelpViewer$2: java.io.FileNotFoundException: /home/pkt/Documents/EclipseWorkspace/jedit-5-5-0/build/doc/README.txt (No such file or directory)
+7:39:27 PM [SwingWorker-pool-1-thread-6] [error] HelpViewer$2:  at java.io.FileInputStream.open0(Native Method)
+7:39:27 PM [SwingWorker-pool-1-thread-6] [error] HelpViewer$2:  at java.io.FileInputStream.open(FileInputStream.java:195)
+7:39:27 PM [SwingWorker-pool-1-thread-6] [error] HelpViewer$2:  at java.io.FileInputStream.<init>(FileInputStream.java:138)
+7:39:27 PM [SwingWorker-pool-1-thread-6] [error] HelpViewer$2:  at java.io.FileInputStream.<init>(FileInputStream.java:93)
+7:39:27 PM [SwingWorker-pool-1-thread-6] [error] HelpViewer$2:  at sun.net.www.protocol.file.FileURLConnection.connect(FileURLConnection.java:90)
+7:39:27 PM [SwingWorker-pool-1-thread-6] [error] HelpViewer$2:  at sun.net.www.protocol.file.FileURLConnection.getInputStream(FileURLConnection.java:188)
+7:39:27 PM [SwingWorker-pool-1-thread-6] [error] HelpViewer$2:  at org.gjt.sp.jedit.help.HelpViewer$2.doInBackground(HelpViewer.java:315)
+7:39:27 PM [SwingWorker-pool-1-thread-6] [error] HelpViewer$2:  at org.gjt.sp.jedit.help.HelpViewer$2.doInBackground(HelpViewer.java:300)
+7:39:27 PM [SwingWorker-pool-1-thread-6] [error] HelpViewer$2:  at javax.swing.SwingWorker$1.call(SwingWorker.java:295)
+7:39:27 PM [SwingWorker-pool-1-thread-6] [error] HelpViewer$2:  at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+7:39:27 PM [SwingWorker-pool-1-thread-6] [error] HelpViewer$2:  at javax.swing.SwingWorker.run(SwingWorker.java:334)
+7:39:27 PM [SwingWorker-pool-1-thread-6] [error] HelpViewer$2:  at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+7:39:27 PM [SwingWorker-pool-1-thread-6] [error] HelpViewer$2:  at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+7:39:27 PM [SwingWorker-pool-1-thread-6] [error] HelpViewer$2:  at java.lang.Thread.run(Thread.java:748)
+7:40:09 PM [SwingWorker-pool-1-thread-7] [error] HelpViewer$2: java.io.FileNotFoundException: /home/pkt/Documents/EclipseWorkspace/jedit-5-5-0/build/doc/README.txt (No such file or directory)
+7:40:09 PM [SwingWorker-pool-1-thread-7] [error] HelpViewer$2:  at java.io.FileInputStream.open0(Native Method)
+7:40:09 PM [SwingWorker-pool-1-thread-7] [error] HelpViewer$2:  at java.io.FileInputStream.open(FileInputStream.java:195)
+7:40:09 PM [SwingWorker-pool-1-thread-7] [error] HelpViewer$2:  at java.io.FileInputStream.<init>(FileInputStream.java:138)
+7:40:09 PM [SwingWorker-pool-1-thread-7] [error] HelpViewer$2:  at java.io.FileInputStream.<init>(FileInputStream.java:93)
+7:40:09 PM [SwingWorker-pool-1-thread-7] [error] HelpViewer$2:  at sun.net.www.protocol.file.FileURLConnection.connect(FileURLConnection.java:90)
+7:40:09 PM [SwingWorker-pool-1-thread-7] [error] HelpViewer$2:  at sun.net.www.protocol.file.FileURLConnection.getInputStream(FileURLConnection.java:188)
+7:40:09 PM [SwingWorker-pool-1-thread-7] [error] HelpViewer$2:  at org.gjt.sp.jedit.help.HelpViewer$2.doInBackground(HelpViewer.java:315)
+7:40:09 PM [SwingWorker-pool-1-thread-7] [error] HelpViewer$2:  at org.gjt.sp.jedit.help.HelpViewer$2.doInBackground(HelpViewer.java:300)
+7:40:09 PM [SwingWorker-pool-1-thread-7] [error] HelpViewer$2:  at javax.swing.SwingWorker$1.call(SwingWorker.java:295)
+7:40:09 PM [SwingWorker-pool-1-thread-7] [error] HelpViewer$2:  at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+7:40:09 PM [SwingWorker-pool-1-thread-7] [error] HelpViewer$2:  at javax.swing.SwingWorker.run(SwingWorker.java:334)
+7:40:09 PM [SwingWorker-pool-1-thread-7] [error] HelpViewer$2:  at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+7:40:09 PM [SwingWorker-pool-1-thread-7] [error] HelpViewer$2:  at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+7:40:09 PM [SwingWorker-pool-1-thread-7] [error] HelpViewer$2:  at java.lang.Thread.run(Thread.java:748)
+7:40:14 PM [AWT-EventQueue-1] [debug] BufferPrinter1_7: print buffer /home/pkt/Documents/EclipseWorkspace/Untitled-30
+7:40:15 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1: java.lang.NullPointerException
+7:40:15 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at org.gjt.sp.jedit.print.PrinterDialog.valueChanged(PrinterDialog.java:491)
+7:40:15 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at org.gjt.sp.jedit.print.PrinterDialog.<init>(PrinterDialog.java:175)
+7:40:15 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at org.gjt.sp.jedit.print.BufferPrinter1_7.print(BufferPrinter1_7.java:75)
+7:40:15 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+7:40:15 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+7:40:15 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+7:40:15 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at java.lang.reflect.Method.invoke(Method.java:498)
+7:40:15 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at org.gjt.sp.jedit.bsh.Reflect.invokeMethod(Reflect.java:135)
+7:40:15 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at org.gjt.sp.jedit.bsh.Reflect.invokeStaticMethod(Reflect.java:99)
+7:40:15 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at org.gjt.sp.jedit.bsh.Name.invokeMethod(Name.java:871)
+7:40:15 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at org.gjt.sp.jedit.bsh.BSHMethodInvocation.eval(BSHMethodInvocation.java:75)
+7:40:15 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at org.gjt.sp.jedit.bsh.BSHPrimaryExpression.eval(BSHPrimaryExpression.java:102)
+7:40:15 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at org.gjt.sp.jedit.bsh.BSHPrimaryExpression.eval(BSHPrimaryExpression.java:47)
+7:40:15 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at org.gjt.sp.jedit.bsh.BSHBlock.evalBlock(BSHBlock.java:130)
+7:40:15 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at org.gjt.sp.jedit.bsh.BSHBlock.eval(BSHBlock.java:80)
+7:40:15 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at org.gjt.sp.jedit.bsh.BshMethod.invokeImpl(BshMethod.java:362)
+7:40:15 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at org.gjt.sp.jedit.bsh.BshMethod.invoke(BshMethod.java:258)
+7:40:15 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at org.gjt.sp.jedit.bsh.BshMethod.invoke(BshMethod.java:186)
+7:40:15 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at org.gjt.sp.jedit.BeanShellFacade.runCachedBlock(BeanShellFacade.java:233)
+7:40:15 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at org.gjt.sp.jedit.BeanShell.runCachedBlock(BeanShell.java:439)
+7:40:15 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at org.gjt.sp.jedit.BeanShellAction.invoke(BeanShellAction.java:73)
+7:40:15 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at org.gjt.sp.jedit.gui.InputHandler.invokeAction(InputHandler.java:343)
+7:40:15 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at org.gjt.sp.jedit.jEdit$6.invokeAction(jEdit.java:3619)
+7:40:15 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at org.gjt.sp.jedit.jEdit$6.invokeAction(jEdit.java:3601)
+7:40:15 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at org.gjt.sp.jedit.EditAction$Wrapper.actionPerformed(EditAction.java:225)
+7:40:15 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:2022)
+7:40:15 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2348)
+7:40:15 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:402)
+7:40:15 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:259)
+7:40:15 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:252)
+7:40:15 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at java.awt.AWTEventMulticaster.mouseReleased(AWTEventMulticaster.java:289)
+7:40:15 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at java.awt.AWTEventMulticaster.mouseReleased(AWTEventMulticaster.java:289)
+7:40:15 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at java.awt.AWTEventMulticaster.mouseReleased(AWTEventMulticaster.java:289)
+7:40:15 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at java.awt.Component.processMouseEvent(Component.java:6539)
+7:40:15 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at javax.swing.JComponent.processMouseEvent(JComponent.java:3324)
+7:40:15 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at java.awt.Component.processEvent(Component.java:6304)
+7:40:15 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at java.awt.Container.processEvent(Container.java:2239)
+7:40:15 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at java.awt.Component.dispatchEventImpl(Component.java:4889)
+7:40:15 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at java.awt.Container.dispatchEventImpl(Container.java:2297)
+7:40:15 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at java.awt.Component.dispatchEvent(Component.java:4711)
+7:40:15 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4904)
+7:40:15 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4535)
+7:40:15 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4476)
+7:40:15 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at java.awt.Container.dispatchEventImpl(Container.java:2283)
+7:40:15 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at java.awt.Window.dispatchEventImpl(Window.java:2746)
+7:40:15 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at java.awt.Component.dispatchEvent(Component.java:4711)
+7:40:15 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:760)
+7:40:15 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at java.awt.EventQueue.access$500(EventQueue.java:97)
+7:40:15 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at java.awt.EventQueue$3.run(EventQueue.java:709)
+7:40:15 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at java.awt.EventQueue$3.run(EventQueue.java:703)
+7:40:15 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at java.security.AccessController.doPrivileged(Native Method)
+7:40:15 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+7:40:15 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:84)
+7:40:15 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at java.awt.EventQueue$4.run(EventQueue.java:733)
+7:40:15 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at java.awt.EventQueue$4.run(EventQueue.java:731)
+7:40:15 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at java.security.AccessController.doPrivileged(Native Method)
+7:40:15 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+7:40:15 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at java.awt.EventQueue.dispatchEvent(EventQueue.java:730)
+7:40:15 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at org.GNOME.Accessibility.AtkWrapper$6.dispatchEvent(AtkWrapper.java:715)
+7:40:15 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205)
+7:40:15 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+7:40:15 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+7:40:15 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+7:40:15 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+7:40:15 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+7:40:19 PM [AWT-EventQueue-1] [debug] EditBus: ViewUpdate[what=VIEW_ACTIVATED,source=org.gjt.sp.jedit.View[active]]
+7:40:19 PM [AWT-EventQueue-1] [debug] jEdit: checkBufferStatus for all buffers
+7:40:19 PM [AWT-EventQueue-1] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+7:40:23 PM [AWT-EventQueue-1] [debug] BufferPrinter1_7: print buffer /home/pkt/Documents/EclipseWorkspace/Untitled-30
+7:40:23 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1: java.lang.NullPointerException
+7:40:23 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at org.gjt.sp.jedit.print.PrinterDialog.valueChanged(PrinterDialog.java:491)
+7:40:23 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at org.gjt.sp.jedit.print.PrinterDialog.<init>(PrinterDialog.java:175)
+7:40:23 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at org.gjt.sp.jedit.print.BufferPrinter1_7.print(BufferPrinter1_7.java:75)
+7:40:23 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+7:40:23 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+7:40:23 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+7:40:23 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at java.lang.reflect.Method.invoke(Method.java:498)
+7:40:23 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at org.gjt.sp.jedit.bsh.Reflect.invokeMethod(Reflect.java:135)
+7:40:23 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at org.gjt.sp.jedit.bsh.Reflect.invokeStaticMethod(Reflect.java:99)
+7:40:23 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at org.gjt.sp.jedit.bsh.Name.invokeMethod(Name.java:871)
+7:40:23 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at org.gjt.sp.jedit.bsh.BSHMethodInvocation.eval(BSHMethodInvocation.java:75)
+7:40:23 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at org.gjt.sp.jedit.bsh.BSHPrimaryExpression.eval(BSHPrimaryExpression.java:102)
+7:40:23 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at org.gjt.sp.jedit.bsh.BSHPrimaryExpression.eval(BSHPrimaryExpression.java:47)
+7:40:23 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at org.gjt.sp.jedit.bsh.BSHBlock.evalBlock(BSHBlock.java:130)
+7:40:23 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at org.gjt.sp.jedit.bsh.BSHBlock.eval(BSHBlock.java:80)
+7:40:23 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at org.gjt.sp.jedit.bsh.BshMethod.invokeImpl(BshMethod.java:362)
+7:40:23 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at org.gjt.sp.jedit.bsh.BshMethod.invoke(BshMethod.java:258)
+7:40:23 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at org.gjt.sp.jedit.bsh.BshMethod.invoke(BshMethod.java:186)
+7:40:23 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at org.gjt.sp.jedit.BeanShellFacade.runCachedBlock(BeanShellFacade.java:233)
+7:40:23 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at org.gjt.sp.jedit.BeanShell.runCachedBlock(BeanShell.java:439)
+7:40:23 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at org.gjt.sp.jedit.BeanShellAction.invoke(BeanShellAction.java:73)
+7:40:23 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at org.gjt.sp.jedit.gui.InputHandler.invokeAction(InputHandler.java:343)
+7:40:23 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at org.gjt.sp.jedit.jEdit$6.invokeAction(jEdit.java:3619)
+7:40:23 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at org.gjt.sp.jedit.jEdit$6.invokeAction(jEdit.java:3601)
+7:40:23 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at org.gjt.sp.jedit.EditAction$Wrapper.actionPerformed(EditAction.java:225)
+7:40:23 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:2022)
+7:40:23 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2348)
+7:40:23 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:402)
+7:40:23 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:259)
+7:40:23 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at javax.swing.AbstractButton.doClick(AbstractButton.java:376)
+7:40:23 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at javax.swing.plaf.basic.BasicMenuItemUI.doClick(BasicMenuItemUI.java:842)
+7:40:23 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at javax.swing.plaf.basic.BasicMenuItemUI$Handler.mouseReleased(BasicMenuItemUI.java:886)
+7:40:23 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at java.awt.AWTEventMulticaster.mouseReleased(AWTEventMulticaster.java:289)
+7:40:23 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at java.awt.Component.processMouseEvent(Component.java:6539)
+7:40:23 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at javax.swing.JComponent.processMouseEvent(JComponent.java:3324)
+7:40:23 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at java.awt.Component.processEvent(Component.java:6304)
+7:40:23 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at java.awt.Container.processEvent(Container.java:2239)
+7:40:23 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at java.awt.Component.dispatchEventImpl(Component.java:4889)
+7:40:23 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at java.awt.Container.dispatchEventImpl(Container.java:2297)
+7:40:23 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at java.awt.Component.dispatchEvent(Component.java:4711)
+7:40:23 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4904)
+7:40:23 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4535)
+7:40:23 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4476)
+7:40:23 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at java.awt.Container.dispatchEventImpl(Container.java:2283)
+7:40:23 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at java.awt.Window.dispatchEventImpl(Window.java:2746)
+7:40:23 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at java.awt.Component.dispatchEvent(Component.java:4711)
+7:40:23 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:760)
+7:40:23 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at java.awt.EventQueue.access$500(EventQueue.java:97)
+7:40:23 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at java.awt.EventQueue$3.run(EventQueue.java:709)
+7:40:23 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at java.awt.EventQueue$3.run(EventQueue.java:703)
+7:40:23 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at java.security.AccessController.doPrivileged(Native Method)
+7:40:23 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+7:40:23 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:84)
+7:40:23 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at java.awt.EventQueue$4.run(EventQueue.java:733)
+7:40:23 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at java.awt.EventQueue$4.run(EventQueue.java:731)
+7:40:23 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at java.security.AccessController.doPrivileged(Native Method)
+7:40:23 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+7:40:23 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at java.awt.EventQueue.dispatchEvent(EventQueue.java:730)
+7:40:23 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at org.GNOME.Accessibility.AtkWrapper$6.dispatchEvent(AtkWrapper.java:715)
+7:40:23 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205)
+7:40:23 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+7:40:23 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+7:40:23 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+7:40:23 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+7:40:23 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+7:40:24 PM [AWT-EventQueue-1] [debug] EditBus: ViewUpdate[what=VIEW_ACTIVATED,source=org.gjt.sp.jedit.View[active]]
+7:40:24 PM [AWT-EventQueue-1] [debug] jEdit: checkBufferStatus for all buffers
+7:40:24 PM [AWT-EventQueue-1] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+7:40:58 PM [AWT-EventQueue-1] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=null,source=Untitled-30 (~/Documents/EclipseWorkspace/)]
+7:41:00 PM [AWT-EventQueue-1] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=null,source=Untitled-30 (~/Documents/EclipseWorkspace/)]
+7:41:00 PM [AWT-EventQueue-1] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=null,source=Untitled-30 (~/Documents/EclipseWorkspace/)]
+7:41:00 PM [AWT-EventQueue-1] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=null,source=Untitled-30 (~/Documents/EclipseWorkspace/)]
+7:41:00 PM [AWT-EventQueue-1] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=null,source=Untitled-30 (~/Documents/EclipseWorkspace/)]
+7:41:00 PM [AWT-EventQueue-1] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=null,source=Untitled-30 (~/Documents/EclipseWorkspace/)]
+7:41:00 PM [AWT-EventQueue-1] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=null,source=Untitled-30 (~/Documents/EclipseWorkspace/)]
+7:41:00 PM [AWT-EventQueue-1] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=null,source=Untitled-30 (~/Documents/EclipseWorkspace/)]
+7:41:00 PM [AWT-EventQueue-1] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=null,source=Untitled-30 (~/Documents/EclipseWorkspace/)]
+7:41:00 PM [AWT-EventQueue-1] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=null,source=Untitled-30 (~/Documents/EclipseWorkspace/)]
+7:41:02 PM [AWT-EventQueue-1] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=null,source=Untitled-30 (~/Documents/EclipseWorkspace/)]
+7:41:09 PM [AWT-EventQueue-1] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=null,source=Untitled-30 (~/Documents/EclipseWorkspace/)]
+7:41:09 PM [AWT-EventQueue-1] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=null,source=Untitled-30 (~/Documents/EclipseWorkspace/)]
+7:41:09 PM [AWT-EventQueue-1] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=null,source=Untitled-30 (~/Documents/EclipseWorkspace/)]
+7:41:09 PM [AWT-EventQueue-1] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=null,source=Untitled-30 (~/Documents/EclipseWorkspace/)]
+7:41:09 PM [AWT-EventQueue-1] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=null,source=Untitled-30 (~/Documents/EclipseWorkspace/)]
+7:41:09 PM [AWT-EventQueue-1] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=null,source=Untitled-30 (~/Documents/EclipseWorkspace/)]
+7:41:09 PM [AWT-EventQueue-1] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=null,source=Untitled-30 (~/Documents/EclipseWorkspace/)]
+7:41:09 PM [AWT-EventQueue-1] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=null,source=Untitled-30 (~/Documents/EclipseWorkspace/)]
+7:41:09 PM [AWT-EventQueue-1] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=null,source=Untitled-30 (~/Documents/EclipseWorkspace/)]
+7:41:23 PM [AWT-EventQueue-1] [debug] EditBus: SearchSettingsChanged[source=null]
+7:41:23 PM [AWT-EventQueue-1] [debug] EditBus: SearchSettingsChanged[source=null]
+7:41:23 PM [AWT-EventQueue-1] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+7:41:25 PM [AWT-EventQueue-1] [debug] EditBus: SearchSettingsChanged[source=null]
+7:41:26 PM [AWT-EventQueue-1] [debug] EditBus: SearchSettingsChanged[source=null]
+7:41:36 PM [AWT-EventQueue-1] [debug] EditBus: ViewUpdate[what=VIEW_ACTIVATED,source=org.gjt.sp.jedit.View[active]]
+7:41:36 PM [AWT-EventQueue-1] [debug] jEdit: checkBufferStatus for all buffers
+7:41:36 PM [AWT-EventQueue-1] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+7:41:37 PM [AWT-EventQueue-1] [debug] EditBus: SearchSettingsChanged[source=null]
+7:41:38 PM [AWT-EventQueue-1] [debug] EditBus: SearchSettingsChanged[source=null]
+7:41:38 PM [AWT-EventQueue-1] [debug] EditBus: DockableWindowUpdate[what=ACTIVATED,dockable=hypersearch-results,source=org.gjt.sp.jedit.gui.DockableWindowManagerImpl[,0,36,960x945,layout=org.gjt.sp.jedit.gui.DockableLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]]
+7:41:38 PM [jEdit Worker #3] [message] HyperSearchRequest: 7 OCCURENCES
+7:41:42 PM [AWT-EventQueue-1] [debug] EditBus: SearchSettingsChanged[source=null]
+7:41:43 PM [AWT-EventQueue-1] [debug] EditBus: SearchSettingsChanged[source=null]
+7:41:43 PM [AWT-EventQueue-1] [debug] EditBus: DockableWindowUpdate[what=ACTIVATED,dockable=hypersearch-results,source=org.gjt.sp.jedit.gui.DockableWindowManagerImpl[,0,36,960x945,layout=org.gjt.sp.jedit.gui.DockableLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]]
+7:41:43 PM [jEdit Worker #3] [message] HyperSearchRequest: 6 OCCURENCES
+7:41:51 PM [AWT-EventQueue-1] [debug] EditBus: SearchSettingsChanged[source=null]
+7:41:51 PM [AWT-EventQueue-1] [debug] EditBus: ViewUpdate[what=VIEW_ACTIVATED,source=org.gjt.sp.jedit.View[active]]
+7:41:51 PM [AWT-EventQueue-1] [debug] jEdit: checkBufferStatus for all buffers
+7:41:51 PM [AWT-EventQueue-1] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+7:41:55 PM [AWT-EventQueue-1] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+7:41:59 PM [AWT-EventQueue-1] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+7:41:59 PM [AWT-EventQueue-1] [debug] EditBus: ViewUpdate[what=VIEW_ACTIVATED,source=org.gjt.sp.jedit.View[active]]
+7:41:59 PM [AWT-EventQueue-1] [debug] jEdit: checkBufferStatus for all buffers
+7:41:59 PM [AWT-EventQueue-1] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+7:42:01 PM [AWT-EventQueue-1] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+7:42:02 PM [AWT-EventQueue-1] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+7:42:03 PM [AWT-EventQueue-1] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+7:42:03 PM [AWT-EventQueue-1] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+7:42:04 PM [AWT-EventQueue-1] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+7:42:05 PM [AWT-EventQueue-1] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+7:42:07 PM [AWT-EventQueue-1] [debug] EditBus: ViewUpdate[what=VIEW_ACTIVATED,source=org.gjt.sp.jedit.View[active]]
+7:42:07 PM [AWT-EventQueue-1] [debug] jEdit: checkBufferStatus for all buffers
+7:42:07 PM [AWT-EventQueue-1] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+7:42:10 PM [AWT-EventQueue-1] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+7:42:10 PM [AWT-EventQueue-1] [debug] BufferSet: 1211886083: addBufferSetListener org.gjt.sp.jedit.EditPane[inactive]
+7:42:10 PM [AWT-EventQueue-1] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[inactive]]
+7:42:10 PM [AWT-EventQueue-1] [debug] EditBus: EditPaneUpdate[what=CREATED,source=org.gjt.sp.jedit.EditPane[inactive]]
+7:42:10 PM [AWT-EventQueue-1] [debug] BufferSet: 1211886083 addBufferAt(Untitled-30 (~/Documents/EclipseWorkspace/),0)
+7:42:10 PM [AWT-EventQueue-1] [debug] BufferSet: 1211886083 addBufferAt(Untitled-1 (~/Documents/EclipseWorkspace/jedit-5-5-0/),1)
+7:42:10 PM [AWT-EventQueue-1] [debug] BufferSet: 1211886083 addBufferAt(Untitled-2 (~/Documents/EclipseWorkspace/jedit-5-5-0/),2)
+7:42:10 PM [AWT-EventQueue-1] [debug] BufferSet: 1211886083 addBufferAt(Untitled-30 (~/Documents/EclipseWorkspace/),3)
+7:42:10 PM [AWT-EventQueue-1] [debug] EditBus: ViewUpdate[what=CREATED,source=org.gjt.sp.jedit.View[inactive]]
+7:42:10 PM [AWT-EventQueue-1] [debug] EditBus: ViewUpdate[what=VIEW_ACTIVATED,source=org.gjt.sp.jedit.View[active]]
+7:42:10 PM [AWT-EventQueue-1] [debug] jEdit: checkBufferStatus for all buffers
+7:42:10 PM [AWT-EventQueue-1] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+7:42:10 PM [AWT-EventQueue-1] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+7:42:10 PM [AWT-EventQueue-1] [debug] JEditTextArea: InputMethodSupport is activated
+7:42:12 PM [AWT-EventQueue-1] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+7:42:12 PM [AWT-EventQueue-1] [debug] BufferSet: 1798093894: addBufferSetListener org.gjt.sp.jedit.EditPane[inactive]
+7:42:12 PM [AWT-EventQueue-1] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[inactive]]
+7:42:12 PM [AWT-EventQueue-1] [debug] EditBus: EditPaneUpdate[what=CREATED,source=org.gjt.sp.jedit.EditPane[inactive]]
+7:42:12 PM [AWT-EventQueue-1] [debug] BufferSet: 1798093894 addBufferAt(Untitled-30 (~/Documents/EclipseWorkspace/),0)
+7:42:12 PM [AWT-EventQueue-1] [debug] BufferSet: 1798093894 addBufferAt(Untitled-1 (~/Documents/EclipseWorkspace/jedit-5-5-0/),1)
+7:42:12 PM [AWT-EventQueue-1] [debug] BufferSet: 1798093894 addBufferAt(Untitled-2 (~/Documents/EclipseWorkspace/jedit-5-5-0/),2)
+7:42:12 PM [AWT-EventQueue-1] [debug] BufferSet: 1798093894 addBufferAt(Untitled-30 (~/Documents/EclipseWorkspace/),3)
+7:42:12 PM [AWT-EventQueue-1] [debug] EditBus: ViewUpdate[what=CREATED,source=org.gjt.sp.jedit.View[inactive]]
+7:42:12 PM [AWT-EventQueue-1] [debug] EditBus: ViewUpdate[what=VIEW_ACTIVATED,source=org.gjt.sp.jedit.View[active]]
+7:42:12 PM [AWT-EventQueue-1] [debug] jEdit: checkBufferStatus for all buffers
+7:42:12 PM [AWT-EventQueue-1] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+7:42:12 PM [AWT-EventQueue-1] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+7:42:12 PM [AWT-EventQueue-1] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+7:42:12 PM [AWT-EventQueue-1] [debug] JEditTextArea: InputMethodSupport is activated
+7:42:15 PM [AWT-EventQueue-1] [debug] EditBus: ViewUpdate[what=CLOSED,source=org.gjt.sp.jedit.View[active]]
+7:42:15 PM [AWT-EventQueue-1] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+7:42:15 PM [AWT-EventQueue-1] [debug] EditBus: EditPaneUpdate[what=DESTROYED,source=org.gjt.sp.jedit.EditPane[active]]
+7:42:15 PM [AWT-EventQueue-1] [debug] BufferSet: 1798093894: Buffer removed Untitled-1 (~/Documents/EclipseWorkspace/jedit-5-5-0/)
+7:42:15 PM [AWT-EventQueue-1] [debug] BufferSet: 1798093894: Buffer removed Untitled-2 (~/Documents/EclipseWorkspace/jedit-5-5-0/)
+7:42:15 PM [AWT-EventQueue-1] [debug] BufferSet: 1798093894: Buffer removed Untitled-30 (~/Documents/EclipseWorkspace/)
+7:42:15 PM [AWT-EventQueue-1] [debug] EditBus: ViewUpdate[what=VIEW_ACTIVATED,source=org.gjt.sp.jedit.View[active]]
+7:42:15 PM [AWT-EventQueue-1] [debug] jEdit: checkBufferStatus for all buffers
+7:42:15 PM [AWT-EventQueue-1] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+7:42:15 PM [AWT-EventQueue-1] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+7:42:17 PM [AWT-EventQueue-1] [debug] EditBus: ViewUpdate[what=CLOSED,source=org.gjt.sp.jedit.View[active]]
+7:42:17 PM [AWT-EventQueue-1] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+7:42:17 PM [AWT-EventQueue-1] [debug] EditBus: EditPaneUpdate[what=DESTROYED,source=org.gjt.sp.jedit.EditPane[active]]
+7:42:17 PM [AWT-EventQueue-1] [debug] BufferSet: 1211886083: Buffer removed Untitled-1 (~/Documents/EclipseWorkspace/jedit-5-5-0/)
+7:42:17 PM [AWT-EventQueue-1] [debug] BufferSet: 1211886083: Buffer removed Untitled-2 (~/Documents/EclipseWorkspace/jedit-5-5-0/)
+7:42:17 PM [AWT-EventQueue-1] [debug] BufferSet: 1211886083: Buffer removed Untitled-30 (~/Documents/EclipseWorkspace/)
+7:42:17 PM [AWT-EventQueue-1] [debug] EditBus: ViewUpdate[what=VIEW_ACTIVATED,source=org.gjt.sp.jedit.View[active]]
+7:42:17 PM [AWT-EventQueue-1] [debug] jEdit: checkBufferStatus for all buffers
+7:42:17 PM [AWT-EventQueue-1] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+7:42:18 PM [AWT-EventQueue-1] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+7:42:24 PM [AWT-EventQueue-1] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+7:42:24 PM [AWT-EventQueue-1] [debug] BufferSet: 1490653224: addBufferSetListener org.gjt.sp.jedit.EditPane[inactive]
+7:42:24 PM [AWT-EventQueue-1] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[inactive]]
+7:42:24 PM [AWT-EventQueue-1] [debug] EditBus: EditPaneUpdate[what=CREATED,source=org.gjt.sp.jedit.EditPane[inactive]]
+7:42:24 PM [AWT-EventQueue-1] [debug] JEditTextArea: InputMethodSupport is activated
+7:42:24 PM [AWT-EventQueue-1] [debug] EditBus: ViewUpdate[what=EDIT_PANE_CHANGED,source=org.gjt.sp.jedit.View[active]]
+7:42:30 PM [AWT-EventQueue-1] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+7:42:30 PM [AWT-EventQueue-1] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+7:42:30 PM [AWT-EventQueue-1] [debug] EditBus: EditPaneUpdate[what=BUFFER_CHANGED,source=org.gjt.sp.jedit.EditPane[active]]
+7:42:31 PM [AWT-EventQueue-1] [debug] MiscUtilities: Saving backup of file "/home/pkt/Documents/EclipseWorkspace/jedit-5-5-0/build/settings/perspective.xml" to "/home/pkt/Documents/EclipseWorkspace/jedit-5-5-0/build/settings/settings-backup/perspective.xml~1~"
+7:42:32 PM [AWT-EventQueue-1] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+7:42:32 PM [AWT-EventQueue-1] [debug] BufferSet: 2111224715: addBufferSetListener org.gjt.sp.jedit.EditPane[inactive]
+7:42:32 PM [AWT-EventQueue-1] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[inactive]]
+7:42:32 PM [AWT-EventQueue-1] [debug] EditBus: EditPaneUpdate[what=CREATED,source=org.gjt.sp.jedit.EditPane[inactive]]
+7:42:32 PM [AWT-EventQueue-1] [debug] JEditTextArea: InputMethodSupport is activated
+7:42:32 PM [AWT-EventQueue-1] [debug] EditBus: ViewUpdate[what=EDIT_PANE_CHANGED,source=org.gjt.sp.jedit.View[active]]
+7:42:35 PM [AWT-EventQueue-1] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+7:42:35 PM [AWT-EventQueue-1] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+7:42:35 PM [AWT-EventQueue-1] [debug] EditBus: EditPaneUpdate[what=BUFFER_CHANGED,source=org.gjt.sp.jedit.EditPane[active]]
+7:42:52 PM [AWT-EventQueue-1] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+7:43:01 PM [AWT-EventQueue-1] [debug] MiscUtilities: Saving backup of file "/home/pkt/Documents/EclipseWorkspace/jedit-5-5-0/build/settings/perspective.xml" to "/home/pkt/Documents/EclipseWorkspace/jedit-5-5-0/build/settings/settings-backup/perspective.xml~1~"
+7:45:00 PM [AWT-EventQueue-1] [debug] EditBus: ViewUpdate[what=VIEW_ACTIVATED,source=org.gjt.sp.jedit.View[active]]
+7:45:00 PM [AWT-EventQueue-1] [debug] jEdit: checkBufferStatus for all buffers
+7:45:00 PM [AWT-EventQueue-1] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+7:45:00 PM [AWT-EventQueue-1] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+7:45:00 PM [AWT-EventQueue-1] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+7:47:15 PM [AWT-EventQueue-1] [debug] EditBus: PluginUpdate[what=ACTIVATED,exit=false,version=5.0,source=/home/pkt/Documents/EclipseWorkspace/jedit-5-5-0/build/jars/QuickNotepad.jar,class=QuickNotepadPlugin]
+7:48:57 PM [AWT-EventQueue-1] [debug] EditBus: DynamicMenuChanged[menu=macros,source=null]
+7:48:57 PM [AWT-EventQueue-1] [debug] jEdit: initPLAF edt old=javax.swing.plaf.metal.MetalLookAndFeel requested=null new=javax.swing.plaf.metal.MetalLookAndFeel
+7:48:58 PM [AWT-EventQueue-1] [debug] jEdit: SOCKS proxy disabled
+7:48:58 PM [AWT-EventQueue-1] [debug] jEdit: HTTP proxy disabled
+7:48:58 PM [AWT-EventQueue-1] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=Untitled-1 (~/Documents/EclipseWorkspace/jedit-5-5-0/)]
+7:48:58 PM [AWT-EventQueue-1] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=Untitled-2 (~/Documents/EclipseWorkspace/jedit-5-5-0/)]
+7:48:58 PM [AWT-EventQueue-1] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=Untitled-30 (~/Documents/EclipseWorkspace/)]
+7:48:58 PM [AWT-EventQueue-1] [debug] EditBus: PropertiesChanged[source=null]
+7:48:58 PM [AWT-EventQueue-1] [message] HistoryModel: Saving history
+7:48:58 PM [AWT-EventQueue-1] [message] BufferHistory: Saving /home/pkt/Documents/EclipseWorkspace/jedit-5-5-0/build/settings/recent.xml
+7:48:58 PM [AWT-EventQueue-1] [message] KillRing: Saving /home/pkt/Documents/EclipseWorkspace/jedit-5-5-0/build/settings/killring.xml
+7:48:58 PM [AWT-EventQueue-1] [debug] EditBus: DynamicMenuChanged[menu=macros,source=null]
+7:48:58 PM [AWT-EventQueue-1] [debug] jEdit: initPLAF edt old=javax.swing.plaf.metal.MetalLookAndFeel requested=null new=javax.swing.plaf.metal.MetalLookAndFeel
+7:48:58 PM [AWT-EventQueue-1] [debug] jEdit: SOCKS proxy disabled
+7:48:58 PM [AWT-EventQueue-1] [debug] jEdit: HTTP proxy disabled
+7:48:58 PM [AWT-EventQueue-1] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=Untitled-1 (~/Documents/EclipseWorkspace/jedit-5-5-0/)]
+7:48:58 PM [AWT-EventQueue-1] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=Untitled-2 (~/Documents/EclipseWorkspace/jedit-5-5-0/)]
+7:48:58 PM [AWT-EventQueue-1] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=Untitled-30 (~/Documents/EclipseWorkspace/)]
+7:48:58 PM [AWT-EventQueue-1] [debug] EditBus: PropertiesChanged[source=null]
+7:48:58 PM [AWT-EventQueue-1] [message] BufferHistory: Saving /home/pkt/Documents/EclipseWorkspace/jedit-5-5-0/build/settings/recent.xml
+7:48:58 PM [AWT-EventQueue-1] [debug] MiscUtilities: Saving backup of file "/home/pkt/Documents/EclipseWorkspace/jedit-5-5-0/build/settings/recent.xml" to "/home/pkt/Documents/EclipseWorkspace/jedit-5-5-0/build/settings/settings-backup/recent.xml~1~"
+7:48:58 PM [AWT-EventQueue-1] [message] KillRing: Saving /home/pkt/Documents/EclipseWorkspace/jedit-5-5-0/build/settings/killring.xml
+7:48:58 PM [AWT-EventQueue-1] [debug] MiscUtilities: Saving backup of file "/home/pkt/Documents/EclipseWorkspace/jedit-5-5-0/build/settings/killring.xml" to "/home/pkt/Documents/EclipseWorkspace/jedit-5-5-0/build/settings/settings-backup/killring.xml~1~"
+7:48:58 PM [AWT-EventQueue-1] [debug] MiscUtilities: Saving backup of file "/home/pkt/Documents/EclipseWorkspace/jedit-5-5-0/build/settings/properties" to "/home/pkt/Documents/EclipseWorkspace/jedit-5-5-0/build/settings/settings-backup/properties~1~"
+7:48:58 PM [AWT-EventQueue-1] [debug] EditBus: ViewUpdate[what=VIEW_ACTIVATED,source=org.gjt.sp.jedit.View[active]]
+7:48:58 PM [AWT-EventQueue-1] [debug] jEdit: checkBufferStatus for all buffers
+7:48:58 PM [AWT-EventQueue-1] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+7:48:58 PM [AWT-EventQueue-1] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+7:48:58 PM [AWT-EventQueue-1] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+7:49:03 PM [jEdit Worker #3] [error] HelpTOCLoader: java.io.FileNotFoundException: /home/pkt/Documents/EclipseWorkspace/jedit-5-5-0/build/doc/whatsnew/toc.xml (No such file or directory)
+7:49:03 PM [jEdit Worker #3] [error] HelpTOCLoader:  at java.io.FileInputStream.open0(Native Method)
+7:49:03 PM [jEdit Worker #3] [error] HelpTOCLoader:  at java.io.FileInputStream.open(FileInputStream.java:195)
+7:49:03 PM [jEdit Worker #3] [error] HelpTOCLoader:  at java.io.FileInputStream.<init>(FileInputStream.java:138)
+7:49:03 PM [jEdit Worker #3] [error] HelpTOCLoader:  at java.io.FileInputStream.<init>(FileInputStream.java:93)
+7:49:03 PM [jEdit Worker #3] [error] HelpTOCLoader:  at sun.net.www.protocol.file.FileURLConnection.connect(FileURLConnection.java:90)
+7:49:03 PM [jEdit Worker #3] [error] HelpTOCLoader:  at sun.net.www.protocol.file.FileURLConnection.getInputStream(FileURLConnection.java:188)
+7:49:03 PM [jEdit Worker #3] [error] HelpTOCLoader:  at java.net.URL.openStream(URL.java:1045)
+7:49:03 PM [jEdit Worker #3] [error] HelpTOCLoader:  at org.gjt.sp.jedit.help.HelpTOCLoader.loadTOC(HelpTOCLoader.java:166)
+7:49:03 PM [jEdit Worker #3] [error] HelpTOCLoader:  at org.gjt.sp.jedit.help.HelpTOCLoader.createTOC(HelpTOCLoader.java:117)
+7:49:03 PM [jEdit Worker #3] [error] HelpTOCLoader:  at org.gjt.sp.jedit.help.HelpTOCPanel$2.run(HelpTOCPanel.java:105)
+7:49:03 PM [jEdit Worker #3] [error] HelpTOCLoader:  at org.gjt.sp.util.TaskManager$MyTask._run(TaskManager.java:258)
+7:49:03 PM [jEdit Worker #3] [error] HelpTOCLoader:  at org.gjt.sp.util.Task.run(Task.java:65)
+7:49:03 PM [jEdit Worker #3] [error] HelpTOCLoader:  at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+7:49:03 PM [jEdit Worker #3] [error] HelpTOCLoader:  at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+7:49:03 PM [jEdit Worker #3] [error] HelpTOCLoader:  at java.lang.Thread.run(Thread.java:748)
+7:49:03 PM [jEdit Worker #3] [error] HelpTOCLoader: java.io.FileNotFoundException: /home/pkt/Documents/EclipseWorkspace/jedit-5-5-0/build/doc/users-guide/toc.xml (No such file or directory)
+7:49:03 PM [jEdit Worker #3] [error] HelpTOCLoader:  at java.io.FileInputStream.open0(Native Method)
+7:49:03 PM [jEdit Worker #3] [error] HelpTOCLoader:  at java.io.FileInputStream.open(FileInputStream.java:195)
+7:49:03 PM [jEdit Worker #3] [error] HelpTOCLoader:  at java.io.FileInputStream.<init>(FileInputStream.java:138)
+7:49:03 PM [jEdit Worker #3] [error] HelpTOCLoader:  at java.io.FileInputStream.<init>(FileInputStream.java:93)
+7:49:03 PM [jEdit Worker #3] [error] HelpTOCLoader:  at sun.net.www.protocol.file.FileURLConnection.connect(FileURLConnection.java:90)
+7:49:03 PM [jEdit Worker #3] [error] HelpTOCLoader:  at sun.net.www.protocol.file.FileURLConnection.getInputStream(FileURLConnection.java:188)
+7:49:03 PM [jEdit Worker #3] [error] HelpTOCLoader:  at java.net.URL.openStream(URL.java:1045)
+7:49:03 PM [jEdit Worker #3] [error] HelpTOCLoader:  at org.gjt.sp.jedit.help.HelpTOCLoader.loadTOC(HelpTOCLoader.java:166)
+7:49:03 PM [jEdit Worker #3] [error] HelpTOCLoader:  at org.gjt.sp.jedit.help.HelpTOCLoader.createTOC(HelpTOCLoader.java:118)
+7:49:03 PM [jEdit Worker #3] [error] HelpTOCLoader:  at org.gjt.sp.jedit.help.HelpTOCPanel$2.run(HelpTOCPanel.java:105)
+7:49:03 PM [jEdit Worker #3] [error] HelpTOCLoader:  at org.gjt.sp.util.TaskManager$MyTask._run(TaskManager.java:258)
+7:49:03 PM [jEdit Worker #3] [error] HelpTOCLoader:  at org.gjt.sp.util.Task.run(Task.java:65)
+7:49:03 PM [jEdit Worker #3] [error] HelpTOCLoader:  at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+7:49:03 PM [jEdit Worker #3] [error] HelpTOCLoader:  at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+7:49:03 PM [jEdit Worker #3] [error] HelpTOCLoader:  at java.lang.Thread.run(Thread.java:748)
+7:49:03 PM [jEdit Worker #3] [error] HelpTOCLoader: java.io.FileNotFoundException: /home/pkt/Documents/EclipseWorkspace/jedit-5-5-0/build/doc/FAQ/toc.xml (No such file or directory)
+7:49:03 PM [jEdit Worker #3] [error] HelpTOCLoader:  at java.io.FileInputStream.open0(Native Method)
+7:49:03 PM [jEdit Worker #3] [error] HelpTOCLoader:  at java.io.FileInputStream.open(FileInputStream.java:195)
+7:49:03 PM [jEdit Worker #3] [error] HelpTOCLoader:  at java.io.FileInputStream.<init>(FileInputStream.java:138)
+7:49:03 PM [jEdit Worker #3] [error] HelpTOCLoader:  at java.io.FileInputStream.<init>(FileInputStream.java:93)
+7:49:03 PM [jEdit Worker #3] [error] HelpTOCLoader:  at sun.net.www.protocol.file.FileURLConnection.connect(FileURLConnection.java:90)
+7:49:03 PM [jEdit Worker #3] [error] HelpTOCLoader:  at sun.net.www.protocol.file.FileURLConnection.getInputStream(FileURLConnection.java:188)
+7:49:03 PM [jEdit Worker #3] [error] HelpTOCLoader:  at java.net.URL.openStream(URL.java:1045)
+7:49:03 PM [jEdit Worker #3] [error] HelpTOCLoader:  at org.gjt.sp.jedit.help.HelpTOCLoader.loadTOC(HelpTOCLoader.java:166)
+7:49:03 PM [jEdit Worker #3] [error] HelpTOCLoader:  at org.gjt.sp.jedit.help.HelpTOCLoader.createTOC(HelpTOCLoader.java:119)
+7:49:03 PM [jEdit Worker #3] [error] HelpTOCLoader:  at org.gjt.sp.jedit.help.HelpTOCPanel$2.run(HelpTOCPanel.java:105)
+7:49:03 PM [jEdit Worker #3] [error] HelpTOCLoader:  at org.gjt.sp.util.TaskManager$MyTask._run(TaskManager.java:258)
+7:49:03 PM [jEdit Worker #3] [error] HelpTOCLoader:  at org.gjt.sp.util.Task.run(Task.java:65)
+7:49:03 PM [jEdit Worker #3] [error] HelpTOCLoader:  at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+7:49:03 PM [jEdit Worker #3] [error] HelpTOCLoader:  at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+7:49:03 PM [jEdit Worker #3] [error] HelpTOCLoader:  at java.lang.Thread.run(Thread.java:748)
+7:49:03 PM [jEdit Worker #3] [notice] HelpTOCLoader: The API docs for jEdit will not be available (reinstall jEdit if you want them)
+7:49:03 PM [SwingWorker-pool-1-thread-8] [error] HelpViewer$2: java.io.FileNotFoundException: /home/pkt/Documents/EclipseWorkspace/jedit-5-5-0/build/doc/welcome.html (No such file or directory)
+7:49:03 PM [SwingWorker-pool-1-thread-8] [error] HelpViewer$2:  at java.io.FileInputStream.open0(Native Method)
+7:49:03 PM [SwingWorker-pool-1-thread-8] [error] HelpViewer$2:  at java.io.FileInputStream.open(FileInputStream.java:195)
+7:49:03 PM [SwingWorker-pool-1-thread-8] [error] HelpViewer$2:  at java.io.FileInputStream.<init>(FileInputStream.java:138)
+7:49:03 PM [SwingWorker-pool-1-thread-8] [error] HelpViewer$2:  at java.io.FileInputStream.<init>(FileInputStream.java:93)
+7:49:03 PM [SwingWorker-pool-1-thread-8] [error] HelpViewer$2:  at sun.net.www.protocol.file.FileURLConnection.connect(FileURLConnection.java:90)
+7:49:03 PM [SwingWorker-pool-1-thread-8] [error] HelpViewer$2:  at sun.net.www.protocol.file.FileURLConnection.getInputStream(FileURLConnection.java:188)
+7:49:03 PM [SwingWorker-pool-1-thread-8] [error] HelpViewer$2:  at javax.swing.JEditorPane.getStream(JEditorPane.java:768)
+7:49:03 PM [SwingWorker-pool-1-thread-8] [error] HelpViewer$2:  at javax.swing.JEditorPane.setPage(JEditorPane.java:432)
+7:49:03 PM [SwingWorker-pool-1-thread-8] [error] HelpViewer$2:  at org.gjt.sp.jedit.help.HelpViewer$2.doInBackground(HelpViewer.java:327)
+7:49:03 PM [SwingWorker-pool-1-thread-8] [error] HelpViewer$2:  at org.gjt.sp.jedit.help.HelpViewer$2.doInBackground(HelpViewer.java:300)
+7:49:03 PM [SwingWorker-pool-1-thread-8] [error] HelpViewer$2:  at javax.swing.SwingWorker$1.call(SwingWorker.java:295)
+7:49:03 PM [SwingWorker-pool-1-thread-8] [error] HelpViewer$2:  at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+7:49:03 PM [SwingWorker-pool-1-thread-8] [error] HelpViewer$2:  at javax.swing.SwingWorker.run(SwingWorker.java:334)
+7:49:03 PM [SwingWorker-pool-1-thread-8] [error] HelpViewer$2:  at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+7:49:03 PM [SwingWorker-pool-1-thread-8] [error] HelpViewer$2:  at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+7:49:03 PM [SwingWorker-pool-1-thread-8] [error] HelpViewer$2:  at java.lang.Thread.run(Thread.java:748)
+7:49:06 PM [AWT-EventQueue-1] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[inactive]]
+7:49:06 PM [AWT-EventQueue-1] [debug] EditBus: ViewUpdate[what=EDIT_PANE_CHANGED,source=org.gjt.sp.jedit.View[active]]
+7:49:15 PM [AWT-EventQueue-1] [debug] jEdit: initPLAF edt old=javax.swing.plaf.metal.MetalLookAndFeel requested=null new=javax.swing.plaf.metal.MetalLookAndFeel
+7:49:15 PM [AWT-EventQueue-1] [debug] jEdit: SOCKS proxy disabled
+7:49:15 PM [AWT-EventQueue-1] [debug] jEdit: HTTP proxy disabled
+7:49:15 PM [AWT-EventQueue-1] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=Untitled-1 (~/Documents/EclipseWorkspace/jedit-5-5-0/)]
+7:49:15 PM [AWT-EventQueue-1] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=Untitled-2 (~/Documents/EclipseWorkspace/jedit-5-5-0/)]
+7:49:15 PM [AWT-EventQueue-1] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=Untitled-30 (~/Documents/EclipseWorkspace/)]
+7:49:15 PM [AWT-EventQueue-1] [debug] EditBus: PropertiesChanged[source=null]
+7:49:15 PM [AWT-EventQueue-1] [message] HistoryModel: Saving history
+7:49:15 PM [AWT-EventQueue-1] [debug] MiscUtilities: Saving backup of file "/home/pkt/Documents/EclipseWorkspace/jedit-5-5-0/build/settings/history" to "/home/pkt/Documents/EclipseWorkspace/jedit-5-5-0/build/settings/settings-backup/history~1~"
+7:49:15 PM [AWT-EventQueue-1] [message] BufferHistory: Saving /home/pkt/Documents/EclipseWorkspace/jedit-5-5-0/build/settings/recent.xml
+7:49:15 PM [AWT-EventQueue-1] [debug] MiscUtilities: Saving backup of file "/home/pkt/Documents/EclipseWorkspace/jedit-5-5-0/build/settings/recent.xml" to "/home/pkt/Documents/EclipseWorkspace/jedit-5-5-0/build/settings/settings-backup/recent.xml~1~"
+7:49:15 PM [AWT-EventQueue-1] [message] KillRing: Saving /home/pkt/Documents/EclipseWorkspace/jedit-5-5-0/build/settings/killring.xml
+7:49:15 PM [AWT-EventQueue-1] [debug] MiscUtilities: Saving backup of file "/home/pkt/Documents/EclipseWorkspace/jedit-5-5-0/build/settings/killring.xml" to "/home/pkt/Documents/EclipseWorkspace/jedit-5-5-0/build/settings/settings-backup/killring.xml~1~"
+7:49:15 PM [AWT-EventQueue-1] [debug] MiscUtilities: Saving backup of file "/home/pkt/Documents/EclipseWorkspace/jedit-5-5-0/build/settings/properties" to "/home/pkt/Documents/EclipseWorkspace/jedit-5-5-0/build/settings/settings-backup/properties~1~"
+7:49:15 PM [AWT-EventQueue-1] [debug] EditBus: ViewUpdate[what=VIEW_ACTIVATED,source=org.gjt.sp.jedit.View[active]]
+7:49:15 PM [AWT-EventQueue-1] [debug] jEdit: checkBufferStatus for all buffers
+7:49:15 PM [AWT-EventQueue-1] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+7:49:15 PM [AWT-EventQueue-1] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+7:49:15 PM [AWT-EventQueue-1] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+7:49:25 PM [AWT-EventQueue-1] [debug] jEdit: initPLAF edt old=javax.swing.plaf.metal.MetalLookAndFeel requested=null new=javax.swing.plaf.metal.MetalLookAndFeel
+7:49:26 PM [AWT-EventQueue-1] [debug] jEdit: SOCKS proxy disabled
+7:49:26 PM [AWT-EventQueue-1] [debug] jEdit: HTTP proxy disabled
+7:49:26 PM [AWT-EventQueue-1] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=Untitled-1 (~/Documents/EclipseWorkspace/jedit-5-5-0/)]
+7:49:26 PM [AWT-EventQueue-1] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=Untitled-2 (~/Documents/EclipseWorkspace/jedit-5-5-0/)]
+7:49:26 PM [AWT-EventQueue-1] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=Untitled-30 (~/Documents/EclipseWorkspace/)]
+7:49:26 PM [AWT-EventQueue-1] [debug] EditBus: PropertiesChanged[source=null]
+7:49:26 PM [AWT-EventQueue-1] [message] BufferHistory: Saving /home/pkt/Documents/EclipseWorkspace/jedit-5-5-0/build/settings/recent.xml
+7:49:26 PM [AWT-EventQueue-1] [debug] MiscUtilities: Saving backup of file "/home/pkt/Documents/EclipseWorkspace/jedit-5-5-0/build/settings/recent.xml" to "/home/pkt/Documents/EclipseWorkspace/jedit-5-5-0/build/settings/settings-backup/recent.xml~1~"
+7:49:26 PM [AWT-EventQueue-1] [message] KillRing: Saving /home/pkt/Documents/EclipseWorkspace/jedit-5-5-0/build/settings/killring.xml
+7:49:26 PM [AWT-EventQueue-1] [debug] MiscUtilities: Saving backup of file "/home/pkt/Documents/EclipseWorkspace/jedit-5-5-0/build/settings/killring.xml" to "/home/pkt/Documents/EclipseWorkspace/jedit-5-5-0/build/settings/settings-backup/killring.xml~1~"
+7:49:26 PM [AWT-EventQueue-1] [debug] MiscUtilities: Saving backup of file "/home/pkt/Documents/EclipseWorkspace/jedit-5-5-0/build/settings/properties" to "/home/pkt/Documents/EclipseWorkspace/jedit-5-5-0/build/settings/settings-backup/properties~1~"
+7:49:26 PM [AWT-EventQueue-1] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+7:49:30 PM [AWT-EventQueue-1] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+7:49:48 PM [AWT-EventQueue-1] [debug] jEdit: initPLAF edt old=javax.swing.plaf.metal.MetalLookAndFeel requested=null new=javax.swing.plaf.metal.MetalLookAndFeel
+7:49:48 PM [AWT-EventQueue-1] [debug] jEdit: SOCKS proxy disabled
+7:49:48 PM [AWT-EventQueue-1] [debug] jEdit: HTTP proxy disabled
+7:49:48 PM [AWT-EventQueue-1] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=Untitled-1 (~/Documents/EclipseWorkspace/jedit-5-5-0/)]
+7:49:48 PM [AWT-EventQueue-1] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=Untitled-2 (~/Documents/EclipseWorkspace/jedit-5-5-0/)]
+7:49:48 PM [AWT-EventQueue-1] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=Untitled-30 (~/Documents/EclipseWorkspace/)]
+7:49:48 PM [AWT-EventQueue-1] [debug] EditBus: PropertiesChanged[source=null]
+7:49:48 PM [AWT-EventQueue-1] [message] BufferHistory: Saving /home/pkt/Documents/EclipseWorkspace/jedit-5-5-0/build/settings/recent.xml
+7:49:48 PM [AWT-EventQueue-1] [debug] MiscUtilities: Saving backup of file "/home/pkt/Documents/EclipseWorkspace/jedit-5-5-0/build/settings/recent.xml" to "/home/pkt/Documents/EclipseWorkspace/jedit-5-5-0/build/settings/settings-backup/recent.xml~1~"
+7:49:48 PM [AWT-EventQueue-1] [message] KillRing: Saving /home/pkt/Documents/EclipseWorkspace/jedit-5-5-0/build/settings/killring.xml
+7:49:48 PM [AWT-EventQueue-1] [debug] MiscUtilities: Saving backup of file "/home/pkt/Documents/EclipseWorkspace/jedit-5-5-0/build/settings/killring.xml" to "/home/pkt/Documents/EclipseWorkspace/jedit-5-5-0/build/settings/settings-backup/killring.xml~1~"
+7:49:48 PM [AWT-EventQueue-1] [debug] MiscUtilities: Saving backup of file "/home/pkt/Documents/EclipseWorkspace/jedit-5-5-0/build/settings/properties" to "/home/pkt/Documents/EclipseWorkspace/jedit-5-5-0/build/settings/settings-backup/properties~1~"
+7:49:49 PM [AWT-EventQueue-1] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+7:49:54 PM [AWT-EventQueue-1] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+7:51:11 PM [AWT-EventQueue-1] [debug] jEdit: initPLAF edt old=javax.swing.plaf.metal.MetalLookAndFeel requested=null new=javax.swing.plaf.metal.MetalLookAndFeel
+7:51:11 PM [AWT-EventQueue-1] [debug] jEdit: SOCKS proxy disabled
+7:51:11 PM [AWT-EventQueue-1] [debug] jEdit: HTTP proxy disabled
+7:51:11 PM [AWT-EventQueue-1] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=Untitled-1 (~/Documents/EclipseWorkspace/jedit-5-5-0/)]
+7:51:11 PM [AWT-EventQueue-1] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=Untitled-2 (~/Documents/EclipseWorkspace/jedit-5-5-0/)]
+7:51:11 PM [AWT-EventQueue-1] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=Untitled-30 (~/Documents/EclipseWorkspace/)]
+7:51:11 PM [AWT-EventQueue-1] [debug] EditBus: PropertiesChanged[source=null]
+7:51:11 PM [AWT-EventQueue-1] [message] BufferHistory: Saving /home/pkt/Documents/EclipseWorkspace/jedit-5-5-0/build/settings/recent.xml
+7:51:11 PM [AWT-EventQueue-1] [debug] MiscUtilities: Saving backup of file "/home/pkt/Documents/EclipseWorkspace/jedit-5-5-0/build/settings/recent.xml" to "/home/pkt/Documents/EclipseWorkspace/jedit-5-5-0/build/settings/settings-backup/recent.xml~1~"
+7:51:11 PM [AWT-EventQueue-1] [message] KillRing: Saving /home/pkt/Documents/EclipseWorkspace/jedit-5-5-0/build/settings/killring.xml
+7:51:11 PM [AWT-EventQueue-1] [debug] MiscUtilities: Saving backup of file "/home/pkt/Documents/EclipseWorkspace/jedit-5-5-0/build/settings/killring.xml" to "/home/pkt/Documents/EclipseWorkspace/jedit-5-5-0/build/settings/settings-backup/killring.xml~1~"
+7:51:11 PM [AWT-EventQueue-1] [debug] MiscUtilities: Saving backup of file "/home/pkt/Documents/EclipseWorkspace/jedit-5-5-0/build/settings/properties" to "/home/pkt/Documents/EclipseWorkspace/jedit-5-5-0/build/settings/settings-backup/properties~1~"
+7:51:11 PM [AWT-EventQueue-1] [debug] EditBus: ViewUpdate[what=VIEW_ACTIVATED,source=org.gjt.sp.jedit.View[active]]
+7:51:11 PM [AWT-EventQueue-1] [debug] jEdit: checkBufferStatus for all buffers
+7:51:11 PM [AWT-EventQueue-1] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+7:51:11 PM [AWT-EventQueue-1] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+7:51:11 PM [AWT-EventQueue-1] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+7:51:19 PM [AWT-EventQueue-1] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+7:51:19 PM [AWT-EventQueue-1] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+7:51:19 PM [AWT-EventQueue-1] [debug] EditBus: BufferUpdate[what=CLOSING,view=org.gjt.sp.jedit.View[active],source=Untitled-30 (~/Documents/EclipseWorkspace/)]
+7:51:19 PM [AWT-EventQueue-1] [debug] BufferSet: 1490653224: Buffer removed Untitled-30 (~/Documents/EclipseWorkspace/)
+7:51:19 PM [AWT-EventQueue-1] [debug] BufferSet: 1653104722: Buffer removed Untitled-30 (~/Documents/EclipseWorkspace/)
+7:51:19 PM [AWT-EventQueue-1] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+7:51:19 PM [AWT-EventQueue-1] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+7:51:19 PM [AWT-EventQueue-1] [debug] EditBus: EditPaneUpdate[what=BUFFER_CHANGED,source=org.gjt.sp.jedit.EditPane[active]]
+7:51:19 PM [AWT-EventQueue-1] [debug] BufferSet: 2111224715: Buffer removed Untitled-30 (~/Documents/EclipseWorkspace/)
+7:51:19 PM [AWT-EventQueue-1] [debug] EditBus: BufferUpdate[what=CLOSED,view=org.gjt.sp.jedit.View[active],source=Untitled-30 (~/Documents/EclipseWorkspace/)]
+7:51:22 PM [AWT-EventQueue-1] [debug] EditBus: BufferUpdate[what=LOAD_STARTED,view=org.gjt.sp.jedit.View[active],source=Untitled-3 (~/Documents/EclipseWorkspace/jedit-5-5-0/)]
+7:51:22 PM [AWT-EventQueue-1] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=Untitled-3 (~/Documents/EclipseWorkspace/jedit-5-5-0/)]
+7:51:22 PM [AWT-EventQueue-1] [debug] EditBus: BufferUpdate[what=LOADED,view=org.gjt.sp.jedit.View[active],source=Untitled-3 (~/Documents/EclipseWorkspace/jedit-5-5-0/)]
+7:51:22 PM [AWT-EventQueue-1] [debug] BufferSet: 1653104722 addBufferAt(Untitled-3 (~/Documents/EclipseWorkspace/jedit-5-5-0/),-1)
+7:51:22 PM [AWT-EventQueue-1] [debug] BufferSet: 1653104722: Buffer added Untitled-3 (~/Documents/EclipseWorkspace/jedit-5-5-0/) at 2
+7:51:22 PM [AWT-EventQueue-1] [debug] BufferSet: 1490653224 addBufferAt(Untitled-3 (~/Documents/EclipseWorkspace/jedit-5-5-0/),-1)
+7:51:22 PM [AWT-EventQueue-1] [debug] BufferSet: 1490653224: Buffer added Untitled-3 (~/Documents/EclipseWorkspace/jedit-5-5-0/) at 2
+7:51:22 PM [AWT-EventQueue-1] [debug] BufferSet: 2111224715 addBufferAt(Untitled-3 (~/Documents/EclipseWorkspace/jedit-5-5-0/),-1)
+7:51:22 PM [AWT-EventQueue-1] [debug] BufferSet: 2111224715: Buffer added Untitled-3 (~/Documents/EclipseWorkspace/jedit-5-5-0/) at 2
+7:51:22 PM [AWT-EventQueue-1] [debug] EditBus: BufferUpdate[what=CREATED,view=org.gjt.sp.jedit.View[active],source=Untitled-3 (~/Documents/EclipseWorkspace/jedit-5-5-0/)]
+7:51:22 PM [AWT-EventQueue-1] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+7:51:22 PM [AWT-EventQueue-1] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+7:51:22 PM [AWT-EventQueue-1] [debug] EditBus: EditPaneUpdate[what=BUFFER_CHANGED,source=org.gjt.sp.jedit.EditPane[active]]
+7:51:29 PM [AWT-EventQueue-1] [debug] EditBus: BufferUpdate[what=CLOSING,view=org.gjt.sp.jedit.View[active],source=Untitled-3 (~/Documents/EclipseWorkspace/jedit-5-5-0/)]
+7:51:29 PM [AWT-EventQueue-1] [debug] BufferSet: 1490653224: Buffer removed Untitled-3 (~/Documents/EclipseWorkspace/jedit-5-5-0/)
+7:51:29 PM [AWT-EventQueue-1] [debug] BufferSet: 1653104722: Buffer removed Untitled-3 (~/Documents/EclipseWorkspace/jedit-5-5-0/)
+7:51:29 PM [AWT-EventQueue-1] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+7:51:29 PM [AWT-EventQueue-1] [debug] EditBus: EditPaneUpdate[what=BUFFER_CHANGED,source=org.gjt.sp.jedit.EditPane[active]]
+7:51:29 PM [AWT-EventQueue-1] [debug] BufferSet: 2111224715: Buffer removed Untitled-3 (~/Documents/EclipseWorkspace/jedit-5-5-0/)
+7:51:29 PM [AWT-EventQueue-1] [debug] EditBus: BufferUpdate[what=CLOSED,view=org.gjt.sp.jedit.View[active],source=Untitled-3 (~/Documents/EclipseWorkspace/jedit-5-5-0/)]
+7:51:31 PM [AWT-EventQueue-1] [debug] MiscUtilities: Saving backup of file "/home/pkt/Documents/EclipseWorkspace/jedit-5-5-0/build/settings/perspective.xml" to "/home/pkt/Documents/EclipseWorkspace/jedit-5-5-0/build/settings/settings-backup/perspective.xml~1~"
+7:51:38 PM [AWT-EventQueue-1] [debug] EditBus: BufferUpdate[what=LOAD_STARTED,view=org.gjt.sp.jedit.View[active],source=Untitled-30 (~/Documents/EclipseWorkspace/)]
+7:51:38 PM [AWT-EventQueue-1] [debug] BufferSet: 1653104722 addBufferAt(Untitled-30 (~/Documents/EclipseWorkspace/),-1)
+7:51:38 PM [AWT-EventQueue-1] [debug] BufferSet: 1653104722: Buffer added Untitled-30 (~/Documents/EclipseWorkspace/) at 2
+7:51:38 PM [AWT-EventQueue-1] [debug] BufferSet: 1490653224 addBufferAt(Untitled-30 (~/Documents/EclipseWorkspace/),-1)
+7:51:38 PM [AWT-EventQueue-1] [debug] BufferSet: 1490653224: Buffer added Untitled-30 (~/Documents/EclipseWorkspace/) at 2
+7:51:38 PM [AWT-EventQueue-1] [debug] BufferSet: 2111224715 addBufferAt(Untitled-30 (~/Documents/EclipseWorkspace/),-1)
+7:51:38 PM [AWT-EventQueue-1] [debug] BufferSet: 2111224715: Buffer added Untitled-30 (~/Documents/EclipseWorkspace/) at 2
+7:51:38 PM [AWT-EventQueue-1] [debug] EditBus: BufferUpdate[what=CREATED,view=org.gjt.sp.jedit.View[active],source=Untitled-30 (~/Documents/EclipseWorkspace/)]
+7:51:38 PM [AWT-EventQueue-1] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+7:51:38 PM [AWT-EventQueue-1] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+7:51:38 PM [AWT-EventQueue-1] [debug] EditBus: EditPaneUpdate[what=BUFFER_CHANGED,source=org.gjt.sp.jedit.EditPane[active]]
+7:51:38 PM [AWT-EventQueue-1] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=Untitled-30 (~/Documents/EclipseWorkspace/)]
+7:51:38 PM [AWT-EventQueue-1] [debug] EditBus: BufferUpdate[what=LOADED,view=org.gjt.sp.jedit.View[active],source=Untitled-30 (~/Documents/EclipseWorkspace/)]
+7:51:38 PM [AWT-EventQueue-1] [debug] EditBus: ViewUpdate[what=VIEW_ACTIVATED,source=org.gjt.sp.jedit.View[active]]
+7:51:38 PM [AWT-EventQueue-1] [debug] jEdit: checkBufferStatus for all buffers
+7:51:38 PM [AWT-EventQueue-1] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+7:51:38 PM [AWT-EventQueue-1] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+7:51:38 PM [AWT-EventQueue-1] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+7:51:59 PM [AWT-EventQueue-1] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+7:51:59 PM [AWT-EventQueue-1] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+7:51:59 PM [AWT-EventQueue-1] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+7:51:59 PM [AWT-EventQueue-1] [debug] EditBus: BufferUpdate[what=LOAD_STARTED,view=org.gjt.sp.jedit.View[active],source=Untitled-30 (~/Documents/EclipseWorkspace/)]
+7:51:59 PM [AWT-EventQueue-1] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=Untitled-30 (~/Documents/EclipseWorkspace/)]
+7:51:59 PM [AWT-EventQueue-1] [debug] EditBus: BufferUpdate[what=LOADED,view=org.gjt.sp.jedit.View[active],source=Untitled-30 (~/Documents/EclipseWorkspace/)]
+7:52:01 PM [AWT-EventQueue-1] [debug] MiscUtilities: Saving backup of file "/home/pkt/Documents/EclipseWorkspace/jedit-5-5-0/build/settings/perspective.xml" to "/home/pkt/Documents/EclipseWorkspace/jedit-5-5-0/build/settings/settings-backup/perspective.xml~1~"
+7:52:15 PM [AWT-EventQueue-1] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+7:52:15 PM [AWT-EventQueue-1] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+7:52:15 PM [AWT-EventQueue-1] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+7:52:15 PM [AWT-EventQueue-1] [debug] EditBus: BufferUpdate[what=LOAD_STARTED,view=org.gjt.sp.jedit.View[active],source=Untitled-1 (~/Documents/EclipseWorkspace/jedit-5-5-0/)]
+7:52:15 PM [AWT-EventQueue-1] [debug] EditBus: BufferUpdate[what=LOAD_STARTED,view=org.gjt.sp.jedit.View[active],source=Untitled-2 (~/Documents/EclipseWorkspace/jedit-5-5-0/)]
+7:52:15 PM [AWT-EventQueue-1] [debug] EditBus: BufferUpdate[what=LOAD_STARTED,view=org.gjt.sp.jedit.View[active],source=Untitled-30 (~/Documents/EclipseWorkspace/)]
+7:52:15 PM [AWT-EventQueue-1] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=Untitled-1 (~/Documents/EclipseWorkspace/jedit-5-5-0/)]
+7:52:15 PM [AWT-EventQueue-1] [debug] EditBus: BufferUpdate[what=LOADED,view=org.gjt.sp.jedit.View[active],source=Untitled-1 (~/Documents/EclipseWorkspace/jedit-5-5-0/)]
+7:52:15 PM [AWT-EventQueue-1] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=Untitled-2 (~/Documents/EclipseWorkspace/jedit-5-5-0/)]
+7:52:15 PM [AWT-EventQueue-1] [debug] EditBus: BufferUpdate[what=LOADED,view=org.gjt.sp.jedit.View[active],source=Untitled-2 (~/Documents/EclipseWorkspace/jedit-5-5-0/)]
+7:52:15 PM [AWT-EventQueue-1] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=Untitled-30 (~/Documents/EclipseWorkspace/)]
+7:52:15 PM [AWT-EventQueue-1] [debug] EditBus: BufferUpdate[what=LOADED,view=org.gjt.sp.jedit.View[active],source=Untitled-30 (~/Documents/EclipseWorkspace/)]
+7:52:22 PM [AWT-EventQueue-1] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+7:52:22 PM [AWT-EventQueue-1] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+7:52:22 PM [AWT-EventQueue-1] [debug] EditBus: BufferUpdate[what=CLOSING,view=org.gjt.sp.jedit.View[active],source=Untitled-1 (~/Documents/EclipseWorkspace/jedit-5-5-0/)]
+7:52:22 PM [AWT-EventQueue-1] [debug] BufferSet: 1490653224: Buffer removed Untitled-1 (~/Documents/EclipseWorkspace/jedit-5-5-0/)
+7:52:22 PM [AWT-EventQueue-1] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[inactive]]
+7:52:22 PM [AWT-EventQueue-1] [debug] EditBus: EditPaneUpdate[what=BUFFER_CHANGED,source=org.gjt.sp.jedit.EditPane[inactive]]
+7:52:22 PM [AWT-EventQueue-1] [debug] BufferSet: 1653104722: Buffer removed Untitled-1 (~/Documents/EclipseWorkspace/jedit-5-5-0/)
+7:52:22 PM [AWT-EventQueue-1] [debug] BufferSet: 2111224715: Buffer removed Untitled-1 (~/Documents/EclipseWorkspace/jedit-5-5-0/)
+7:52:22 PM [AWT-EventQueue-1] [debug] EditBus: BufferUpdate[what=CLOSED,view=org.gjt.sp.jedit.View[active],source=Untitled-1 (~/Documents/EclipseWorkspace/jedit-5-5-0/)]
+7:52:22 PM [AWT-EventQueue-1] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+7:52:22 PM [AWT-EventQueue-1] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+7:52:22 PM [AWT-EventQueue-1] [debug] EditBus: BufferUpdate[what=CLOSING,view=org.gjt.sp.jedit.View[active],source=Untitled-2 (~/Documents/EclipseWorkspace/jedit-5-5-0/)]
+7:52:22 PM [AWT-EventQueue-1] [debug] BufferSet: 1490653224: Buffer removed Untitled-2 (~/Documents/EclipseWorkspace/jedit-5-5-0/)
+7:52:22 PM [AWT-EventQueue-1] [debug] BufferSet: 1653104722: Buffer removed Untitled-2 (~/Documents/EclipseWorkspace/jedit-5-5-0/)
+7:52:22 PM [AWT-EventQueue-1] [debug] BufferSet: 2111224715: Buffer removed Untitled-2 (~/Documents/EclipseWorkspace/jedit-5-5-0/)
+7:52:22 PM [AWT-EventQueue-1] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[inactive]]
+7:52:22 PM [AWT-EventQueue-1] [debug] EditBus: EditPaneUpdate[what=BUFFER_CHANGED,source=org.gjt.sp.jedit.EditPane[inactive]]
+7:52:22 PM [AWT-EventQueue-1] [debug] EditBus: BufferUpdate[what=CLOSED,view=org.gjt.sp.jedit.View[active],source=Untitled-2 (~/Documents/EclipseWorkspace/jedit-5-5-0/)]
+7:52:31 PM [AWT-EventQueue-1] [debug] MiscUtilities: Saving backup of file "/home/pkt/Documents/EclipseWorkspace/jedit-5-5-0/build/settings/perspective.xml" to "/home/pkt/Documents/EclipseWorkspace/jedit-5-5-0/build/settings/settings-backup/perspective.xml~1~"
+7:52:46 PM [AWT-EventQueue-1] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+7:52:46 PM [AWT-EventQueue-1] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+7:52:46 PM [AWT-EventQueue-1] [debug] EditBus: BufferUpdate[what=CLOSING,view=org.gjt.sp.jedit.View[active],source=Untitled-30 (~/Documents/EclipseWorkspace/)]
+7:52:46 PM [AWT-EventQueue-1] [debug] BufferSet: 1490653224: Buffer removed Untitled-30 (~/Documents/EclipseWorkspace/)
+7:52:46 PM [AWT-EventQueue-1] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=Untitled-1 (~/Documents/EclipseWorkspace/)]
+7:52:46 PM [AWT-EventQueue-1] [debug] EditBus: BufferUpdate[what=CREATED,view=null,source=Untitled-1 (~/Documents/EclipseWorkspace/)]
+7:52:46 PM [AWT-EventQueue-1] [debug] EditBus: BufferUpdate[what=LOAD_STARTED,view=null,source=Untitled-1 (~/Documents/EclipseWorkspace/)]
+7:52:46 PM [AWT-EventQueue-1] [debug] EditBus: BufferUpdate[what=LOADED,view=null,source=Untitled-1 (~/Documents/EclipseWorkspace/)]
+7:52:46 PM [AWT-EventQueue-1] [debug] BufferSet: 1653104722 addBufferAt(Untitled-1 (~/Documents/EclipseWorkspace/),-1)
+7:52:46 PM [AWT-EventQueue-1] [debug] BufferSet: 1653104722: Buffer added Untitled-1 (~/Documents/EclipseWorkspace/) at 0
+7:52:46 PM [AWT-EventQueue-1] [debug] BufferSet: 1490653224 addBufferAt(Untitled-1 (~/Documents/EclipseWorkspace/),-1)
+7:52:46 PM [AWT-EventQueue-1] [debug] BufferSet: 1490653224: Buffer added Untitled-1 (~/Documents/EclipseWorkspace/) at 0
+7:52:46 PM [AWT-EventQueue-1] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[inactive]]
+7:52:46 PM [AWT-EventQueue-1] [debug] EditBus: EditPaneUpdate[what=BUFFER_CHANGED,source=org.gjt.sp.jedit.EditPane[inactive]]
+7:52:46 PM [AWT-EventQueue-1] [debug] BufferSet: 2111224715 addBufferAt(Untitled-1 (~/Documents/EclipseWorkspace/),-1)
+7:52:46 PM [AWT-EventQueue-1] [debug] BufferSet: 2111224715: Buffer added Untitled-1 (~/Documents/EclipseWorkspace/) at 0
+7:52:46 PM [AWT-EventQueue-1] [debug] BufferSet: 1653104722: Buffer removed Untitled-30 (~/Documents/EclipseWorkspace/)
+7:52:46 PM [AWT-EventQueue-1] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+7:52:46 PM [AWT-EventQueue-1] [debug] EditBus: EditPaneUpdate[what=BUFFER_CHANGED,source=org.gjt.sp.jedit.EditPane[active]]
+7:52:46 PM [AWT-EventQueue-1] [debug] BufferSet: 2111224715: Buffer removed Untitled-30 (~/Documents/EclipseWorkspace/)
+7:52:46 PM [AWT-EventQueue-1] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[inactive]]
+7:52:46 PM [AWT-EventQueue-1] [debug] EditBus: EditPaneUpdate[what=BUFFER_CHANGED,source=org.gjt.sp.jedit.EditPane[inactive]]
+7:52:46 PM [AWT-EventQueue-1] [debug] EditBus: BufferUpdate[what=CLOSED,view=org.gjt.sp.jedit.View[active],source=Untitled-30 (~/Documents/EclipseWorkspace/)]
+7:52:57 PM [AWT-EventQueue-1] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=null,source=Untitled-1 (~/Documents/EclipseWorkspace/)]
+7:53:01 PM [AWT-EventQueue-1] [debug] MiscUtilities: Saving backup of file "/home/pkt/Documents/EclipseWorkspace/jedit-5-5-0/build/settings/perspective.xml" to "/home/pkt/Documents/EclipseWorkspace/jedit-5-5-0/build/settings/settings-backup/perspective.xml~1~"
+7:53:01 PM [jEdit Worker #3] [debug] MiscUtilities: Saving autosave of file "/home/pkt/Documents/EclipseWorkspace/Untitled-1" to "/home/pkt/Documents/EclipseWorkspace/#Untitled-1#"
+7:53:31 PM [jEdit Worker #3] [debug] MiscUtilities: Saving autosave of file "/home/pkt/Documents/EclipseWorkspace/Untitled-1" to "/home/pkt/Documents/EclipseWorkspace/#Untitled-1#"
+7:54:29 PM [AWT-EventQueue-1] [debug] EditBus: ViewUpdate[what=VIEW_ACTIVATED,source=org.gjt.sp.jedit.View[active]]
+7:54:29 PM [AWT-EventQueue-1] [debug] jEdit: checkBufferStatus for all buffers
+7:54:37 PM [AWT-EventQueue-1] [debug] EditBus: BufferUpdate[what=SAVING,view=org.gjt.sp.jedit.View[active],source=Untitled-1 (~/Documents/EclipseWorkspace/)]
+7:54:37 PM [AWT-EventQueue-1] [debug] FileVFS: /home/pkt/Documents/EclipseWorkspace/Untitled-1 has permissions 00
+7:54:37 PM [AWT-EventQueue-1] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=org.gjt.sp.jedit.View[active],source=Untitled-1 (~/Documents/EclipseWorkspace/)]
+7:54:37 PM [AWT-EventQueue-1] [debug] EditBus: BufferUpdate[what=SAVED,view=org.gjt.sp.jedit.View[active],source=Untitled-1 (~/Documents/EclipseWorkspace/)]
+7:54:37 PM [AWT-EventQueue-1] [debug] EditBus: VFSUpdate[path=/home/pkt/Documents/EclipseWorkspace,source=null]
+7:54:37 PM [AWT-EventQueue-1] [debug] EditBus: VFSUpdate[path=/home/pkt/Documents/EclipseWorkspace/#Untitled-1#save#,source=null]
+7:54:37 PM [AWT-EventQueue-1] [debug] EditBus: VFSUpdate[path=/home/pkt/Documents/EclipseWorkspace/Untitled-1,source=null]
+7:54:37 PM [AWT-EventQueue-1] [debug] EditBus: ViewUpdate[what=VIEW_ACTIVATED,source=org.gjt.sp.jedit.View[active]]
+7:54:37 PM [AWT-EventQueue-1] [debug] jEdit: checkBufferStatus for all buffers
+7:54:37 PM [AWT-EventQueue-1] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+7:54:37 PM [AWT-EventQueue-1] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+7:54:37 PM [AWT-EventQueue-1] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+7:54:41 PM [AWT-EventQueue-1] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+7:54:41 PM [AWT-EventQueue-1] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+7:54:41 PM [AWT-EventQueue-1] [debug] EditBus: BufferUpdate[what=CLOSING,view=org.gjt.sp.jedit.View[active],source=Untitled-1 (~/Documents/EclipseWorkspace/)]
+7:54:41 PM [AWT-EventQueue-1] [debug] BufferSet: 1490653224: Buffer removed Untitled-1 (~/Documents/EclipseWorkspace/)
+7:54:41 PM [AWT-EventQueue-1] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=Untitled-1 (~/Documents/EclipseWorkspace/)]
+7:54:41 PM [AWT-EventQueue-1] [debug] EditBus: BufferUpdate[what=CREATED,view=null,source=Untitled-1 (~/Documents/EclipseWorkspace/)]
+7:54:41 PM [AWT-EventQueue-1] [debug] EditBus: BufferUpdate[what=LOAD_STARTED,view=null,source=Untitled-1 (~/Documents/EclipseWorkspace/)]
+7:54:41 PM [AWT-EventQueue-1] [debug] EditBus: BufferUpdate[what=LOADED,view=null,source=Untitled-1 (~/Documents/EclipseWorkspace/)]
+7:54:41 PM [AWT-EventQueue-1] [debug] BufferSet: 1653104722 addBufferAt(Untitled-1 (~/Documents/EclipseWorkspace/),-1)
+7:54:41 PM [AWT-EventQueue-1] [debug] BufferSet: 1653104722: Buffer added Untitled-1 (~/Documents/EclipseWorkspace/) at 1
+7:54:41 PM [AWT-EventQueue-1] [debug] BufferSet: 1490653224 addBufferAt(Untitled-1 (~/Documents/EclipseWorkspace/),-1)
+7:54:41 PM [AWT-EventQueue-1] [debug] BufferSet: 1490653224: Buffer added Untitled-1 (~/Documents/EclipseWorkspace/) at 0
+7:54:41 PM [AWT-EventQueue-1] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[inactive]]
+7:54:41 PM [AWT-EventQueue-1] [debug] EditBus: EditPaneUpdate[what=BUFFER_CHANGED,source=org.gjt.sp.jedit.EditPane[inactive]]
+7:54:41 PM [AWT-EventQueue-1] [debug] BufferSet: 2111224715 addBufferAt(Untitled-1 (~/Documents/EclipseWorkspace/),-1)
+7:54:41 PM [AWT-EventQueue-1] [debug] BufferSet: 2111224715: Buffer added Untitled-1 (~/Documents/EclipseWorkspace/) at 1
+7:54:41 PM [AWT-EventQueue-1] [debug] BufferSet: 1653104722: Buffer removed Untitled-1 (~/Documents/EclipseWorkspace/)
+7:54:41 PM [AWT-EventQueue-1] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+7:54:41 PM [AWT-EventQueue-1] [debug] EditBus: EditPaneUpdate[what=BUFFER_CHANGED,source=org.gjt.sp.jedit.EditPane[active]]
+7:54:41 PM [AWT-EventQueue-1] [debug] BufferSet: 2111224715: Buffer removed Untitled-1 (~/Documents/EclipseWorkspace/)
+7:54:41 PM [AWT-EventQueue-1] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[inactive]]
+7:54:41 PM [AWT-EventQueue-1] [debug] EditBus: EditPaneUpdate[what=BUFFER_CHANGED,source=org.gjt.sp.jedit.EditPane[inactive]]
+7:54:41 PM [AWT-EventQueue-1] [debug] EditBus: BufferUpdate[what=CLOSED,view=org.gjt.sp.jedit.View[active],source=Untitled-1 (~/Documents/EclipseWorkspace/)]
+7:54:48 PM [AWT-EventQueue-1] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=null,source=Untitled-1 (~/Documents/EclipseWorkspace/)]
+7:55:01 PM [AWT-EventQueue-1] [debug] MiscUtilities: Saving backup of file "/home/pkt/Documents/EclipseWorkspace/jedit-5-5-0/build/settings/perspective.xml" to "/home/pkt/Documents/EclipseWorkspace/jedit-5-5-0/build/settings/settings-backup/perspective.xml~1~"
+7:55:01 PM [jEdit Worker #3] [debug] MiscUtilities: Saving autosave of file "/home/pkt/Documents/EclipseWorkspace/Untitled-1" to "/home/pkt/Documents/EclipseWorkspace/#Untitled-1#"
+7:56:22 PM [AWT-EventQueue-1] [debug] EditBus: VFSUpdate[path=/home/pkt/Documents/EclipseWorkspace,source=null]
+7:56:22 PM [AWT-EventQueue-1] [debug] EditBus: VFSUpdate[path=/home/pkt/Documents/EclipseWorkspace/Untitled-1,source=null]
+7:56:22 PM [AWT-EventQueue-1] [debug] EditBus: VFSUpdate[path=/home/pkt/Documents/EclipseWorkspace/u1,source=null]
+7:56:25 PM [AWT-EventQueue-1] [debug] EditBus: ViewUpdate[what=VIEW_ACTIVATED,source=org.gjt.sp.jedit.View[active]]
+7:56:25 PM [AWT-EventQueue-1] [debug] jEdit: checkBufferStatus for all buffers
+7:56:29 PM [AWT-EventQueue-1] [debug] EditBus: BufferUpdate[what=SAVING,view=org.gjt.sp.jedit.View[active],source=Untitled-1 (~/Documents/EclipseWorkspace/)]
+7:56:29 PM [AWT-EventQueue-1] [debug] FileVFS: /home/pkt/Documents/EclipseWorkspace/Untitled-1 has permissions 00
+7:56:29 PM [AWT-EventQueue-1] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=org.gjt.sp.jedit.View[active],source=Untitled-1 (~/Documents/EclipseWorkspace/)]
+7:56:29 PM [AWT-EventQueue-1] [debug] EditBus: BufferUpdate[what=SAVED,view=org.gjt.sp.jedit.View[active],source=Untitled-1 (~/Documents/EclipseWorkspace/)]
+7:56:29 PM [AWT-EventQueue-1] [debug] EditBus: VFSUpdate[path=/home/pkt/Documents/EclipseWorkspace,source=null]
+7:56:29 PM [AWT-EventQueue-1] [debug] EditBus: VFSUpdate[path=/home/pkt/Documents/EclipseWorkspace/#Untitled-1#save#,source=null]
+7:56:29 PM [AWT-EventQueue-1] [debug] EditBus: VFSUpdate[path=/home/pkt/Documents/EclipseWorkspace/Untitled-1,source=null]
+7:56:29 PM [AWT-EventQueue-1] [debug] EditBus: ViewUpdate[what=VIEW_ACTIVATED,source=org.gjt.sp.jedit.View[active]]
+7:56:29 PM [AWT-EventQueue-1] [debug] jEdit: checkBufferStatus for all buffers
+7:56:29 PM [AWT-EventQueue-1] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+7:56:29 PM [AWT-EventQueue-1] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+7:56:29 PM [AWT-EventQueue-1] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+7:56:33 PM [AWT-EventQueue-1] [debug] BufferPrinter1_7: print buffer /home/pkt/Documents/EclipseWorkspace/Untitled-1
+7:56:34 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1: java.lang.NullPointerException
+7:56:34 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at org.gjt.sp.jedit.print.PrinterDialog.valueChanged(PrinterDialog.java:491)
+7:56:34 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at org.gjt.sp.jedit.print.PrinterDialog.<init>(PrinterDialog.java:175)
+7:56:34 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at org.gjt.sp.jedit.print.BufferPrinter1_7.print(BufferPrinter1_7.java:75)
+7:56:34 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+7:56:34 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+7:56:34 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+7:56:34 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at java.lang.reflect.Method.invoke(Method.java:498)
+7:56:34 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at org.gjt.sp.jedit.bsh.Reflect.invokeMethod(Reflect.java:135)
+7:56:34 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at org.gjt.sp.jedit.bsh.Reflect.invokeStaticMethod(Reflect.java:99)
+7:56:34 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at org.gjt.sp.jedit.bsh.Name.invokeMethod(Name.java:871)
+7:56:34 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at org.gjt.sp.jedit.bsh.BSHMethodInvocation.eval(BSHMethodInvocation.java:75)
+7:56:34 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at org.gjt.sp.jedit.bsh.BSHPrimaryExpression.eval(BSHPrimaryExpression.java:102)
+7:56:34 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at org.gjt.sp.jedit.bsh.BSHPrimaryExpression.eval(BSHPrimaryExpression.java:47)
+7:56:34 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at org.gjt.sp.jedit.bsh.BSHBlock.evalBlock(BSHBlock.java:130)
+7:56:34 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at org.gjt.sp.jedit.bsh.BSHBlock.eval(BSHBlock.java:80)
+7:56:34 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at org.gjt.sp.jedit.bsh.BshMethod.invokeImpl(BshMethod.java:362)
+7:56:34 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at org.gjt.sp.jedit.bsh.BshMethod.invoke(BshMethod.java:258)
+7:56:34 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at org.gjt.sp.jedit.bsh.BshMethod.invoke(BshMethod.java:186)
+7:56:34 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at org.gjt.sp.jedit.BeanShellFacade.runCachedBlock(BeanShellFacade.java:233)
+7:56:34 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at org.gjt.sp.jedit.BeanShell.runCachedBlock(BeanShell.java:439)
+7:56:34 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at org.gjt.sp.jedit.BeanShellAction.invoke(BeanShellAction.java:73)
+7:56:34 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at org.gjt.sp.jedit.gui.InputHandler.invokeAction(InputHandler.java:343)
+7:56:34 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at org.gjt.sp.jedit.jEdit$6.invokeAction(jEdit.java:3619)
+7:56:34 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at org.gjt.sp.jedit.jEdit$6.invokeAction(jEdit.java:3601)
+7:56:34 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at org.gjt.sp.jedit.EditAction$Wrapper.actionPerformed(EditAction.java:225)
+7:56:34 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:2022)
+7:56:34 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2348)
+7:56:34 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:402)
+7:56:34 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:259)
+7:56:34 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:252)
+7:56:34 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at java.awt.AWTEventMulticaster.mouseReleased(AWTEventMulticaster.java:289)
+7:56:34 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at java.awt.AWTEventMulticaster.mouseReleased(AWTEventMulticaster.java:289)
+7:56:34 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at java.awt.AWTEventMulticaster.mouseReleased(AWTEventMulticaster.java:289)
+7:56:34 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at java.awt.Component.processMouseEvent(Component.java:6539)
+7:56:34 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at javax.swing.JComponent.processMouseEvent(JComponent.java:3324)
+7:56:34 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at java.awt.Component.processEvent(Component.java:6304)
+7:56:34 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at java.awt.Container.processEvent(Container.java:2239)
+7:56:34 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at java.awt.Component.dispatchEventImpl(Component.java:4889)
+7:56:34 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at java.awt.Container.dispatchEventImpl(Container.java:2297)
+7:56:34 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at java.awt.Component.dispatchEvent(Component.java:4711)
+7:56:34 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4904)
+7:56:34 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4535)
+7:56:34 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4476)
+7:56:34 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at java.awt.Container.dispatchEventImpl(Container.java:2283)
+7:56:34 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at java.awt.Window.dispatchEventImpl(Window.java:2746)
+7:56:34 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at java.awt.Component.dispatchEvent(Component.java:4711)
+7:56:34 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:760)
+7:56:34 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at java.awt.EventQueue.access$500(EventQueue.java:97)
+7:56:34 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at java.awt.EventQueue$3.run(EventQueue.java:709)
+7:56:34 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at java.awt.EventQueue$3.run(EventQueue.java:703)
+7:56:34 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at java.security.AccessController.doPrivileged(Native Method)
+7:56:34 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+7:56:34 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:84)
+7:56:34 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at java.awt.EventQueue$4.run(EventQueue.java:733)
+7:56:34 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at java.awt.EventQueue$4.run(EventQueue.java:731)
+7:56:34 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at java.security.AccessController.doPrivileged(Native Method)
+7:56:34 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+7:56:34 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at java.awt.EventQueue.dispatchEvent(EventQueue.java:730)
+7:56:34 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at org.GNOME.Accessibility.AtkWrapper$6.dispatchEvent(AtkWrapper.java:715)
+7:56:34 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205)
+7:56:34 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+7:56:34 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+7:56:34 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+7:56:34 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+7:56:34 PM [AWT-EventQueue-1] [error] AWT-EventQueue-1:  at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+7:56:45 PM [AWT-EventQueue-1] [debug] EditBus: EditorExitRequested[source=org.gjt.sp.jedit.View[active]]
+7:56:45 PM [AWT-EventQueue-1] [message] PerspectiveManager: Saving /home/pkt/Documents/EclipseWorkspace/jedit-5-5-0/build/settings/perspective.xml
+7:56:45 PM [AWT-EventQueue-1] [debug] MiscUtilities: Saving backup of file "/home/pkt/Documents/EclipseWorkspace/jedit-5-5-0/build/settings/perspective.xml" to "/home/pkt/Documents/EclipseWorkspace/jedit-5-5-0/build/settings/settings-backup/perspective.xml~1~"
+7:56:45 PM [AWT-EventQueue-1] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+7:56:45 PM [AWT-EventQueue-1] [debug] EditBus: EditorExiting[source=null]
+7:56:45 PM [AWT-EventQueue-1] [debug] EditBus: ViewUpdate[what=CLOSED,source=org.gjt.sp.jedit.View[active]]
+7:56:45 PM [AWT-EventQueue-1] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+7:56:45 PM [AWT-EventQueue-1] [debug] EditBus: EditPaneUpdate[what=DESTROYED,source=org.gjt.sp.jedit.EditPane[active]]
+7:56:45 PM [AWT-EventQueue-1] [debug] BufferSet: 1653104722: Buffer removed Untitled-1 (~/Documents/EclipseWorkspace/)
+7:56:45 PM [AWT-EventQueue-1] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+7:56:45 PM [AWT-EventQueue-1] [debug] EditBus: EditPaneUpdate[what=DESTROYED,source=org.gjt.sp.jedit.EditPane[inactive]]
+7:56:45 PM [AWT-EventQueue-1] [debug] BufferSet: 1490653224: Buffer removed Untitled-1 (~/Documents/EclipseWorkspace/)
+7:56:45 PM [AWT-EventQueue-1] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+7:56:45 PM [AWT-EventQueue-1] [debug] EditBus: EditPaneUpdate[what=DESTROYED,source=org.gjt.sp.jedit.EditPane[inactive]]
+7:56:45 PM [AWT-EventQueue-1] [debug] BufferSet: 2111224715: Buffer removed Untitled-1 (~/Documents/EclipseWorkspace/)
+7:56:45 PM [AWT-EventQueue-1] [debug] BufferSetManager: Buffer:Untitled-1 (~/Documents/EclipseWorkspace/) is in no bufferSet anymore, closing it
+7:56:45 PM [AWT-EventQueue-1] [debug] EditBus: PluginUpdate[what=DEACTIVATED,exit=true,version=5.0,source=/home/pkt/Documents/EclipseWorkspace/jedit-5-5-0/build/jars/QuickNotepad.jar,class=QuickNotepadPlugin]
+7:56:45 PM [AWT-EventQueue-1] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,version=5.0,source=/home/pkt/Documents/EclipseWorkspace/jedit-5-5-0/build/jars/QuickNotepad.jar,class=QuickNotepadPlugin]
+7:56:45 PM [AWT-EventQueue-1] [debug] MiscUtilities: Saving backup of file "/home/pkt/Documents/EclipseWorkspace/jedit-5-5-0/build/settings/abbrevs" to "/home/pkt/Documents/EclipseWorkspace/jedit-5-5-0/build/settings/settings-backup/abbrevs~1~"
+7:56:45 PM [AWT-EventQueue-1] [message] HistoryModel: Saving history
+7:56:45 PM [AWT-EventQueue-1] [debug] MiscUtilities: Saving backup of file "/home/pkt/Documents/EclipseWorkspace/jedit-5-5-0/build/settings/history" to "/home/pkt/Documents/EclipseWorkspace/jedit-5-5-0/build/settings/settings-backup/history~1~"
+7:56:45 PM [AWT-EventQueue-1] [message] BufferHistory: Saving /home/pkt/Documents/EclipseWorkspace/jedit-5-5-0/build/settings/recent.xml
+7:56:45 PM [AWT-EventQueue-1] [debug] MiscUtilities: Saving backup of file "/home/pkt/Documents/EclipseWorkspace/jedit-5-5-0/build/settings/recent.xml" to "/home/pkt/Documents/EclipseWorkspace/jedit-5-5-0/build/settings/settings-backup/recent.xml~1~"
+7:56:45 PM [AWT-EventQueue-1] [message] KillRing: Saving /home/pkt/Documents/EclipseWorkspace/jedit-5-5-0/build/settings/killring.xml
+7:56:45 PM [AWT-EventQueue-1] [debug] MiscUtilities: Saving backup of file "/home/pkt/Documents/EclipseWorkspace/jedit-5-5-0/build/settings/killring.xml" to "/home/pkt/Documents/EclipseWorkspace/jedit-5-5-0/build/settings/settings-backup/killring.xml~1~"
+7:56:45 PM [AWT-EventQueue-1] [debug] MiscUtilities: Saving backup of file "/home/pkt/Documents/EclipseWorkspace/jedit-5-5-0/build/settings/properties" to "/home/pkt/Documents/EclipseWorkspace/jedit-5-5-0/build/settings/settings-backup/properties~1~"

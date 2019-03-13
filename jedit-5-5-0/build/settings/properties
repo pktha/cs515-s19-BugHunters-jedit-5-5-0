@@ -1,5 +1,5 @@
 #jEdit properties
-#Fri Feb 22 19:56:45 MST 2019
+#Tue Mar 12 19:02:22 MDT 2019
 Combined\ Options.x=-64
 Combined\ Options.y=50
 Global\ Options.last=appearance
@@ -61,6 +61,7 @@ search.wrap.toggle=false
 search.x=50
 search.y=50
 task-monitor.dock-position=floating
+tip.show=false
 vfs.browser.colors.0.color=\#ffa0a0a0
 vfs.browser.colors.1.color=\#ff660066
 vfs.browser.colors.2.color=\#ff666600
@@ -88,7 +89,7 @@ view.docking.framework=Original
 view.eolMarkerColor=\#ffff6633
 view.extendedState=4
 view.fgColor=\#ff000000
-view.height=527
+view.height=1053
 view.lineHighlightColor=\#ffffffe0
 view.multipleSelectionColor=\#ffccffcc
 view.pageBreaksColor=\#ff8080ff
@@ -107,7 +108,7 @@ view.status.show-caret-virtual=true
 view.structureHighlightColor=\#ff000000
 view.thickCaret=false
 view.toolbar.floatable=false
-view.width=940
+view.width=950
 view.wrapGuideColor=\#ff8080ff
-view.x=920
-view.y=330
+view.x=960
+view.y=27

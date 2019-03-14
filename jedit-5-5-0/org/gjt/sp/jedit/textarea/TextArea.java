@@ -2318,6 +2318,24 @@ forward_scan:	do
 		return caretLine;
 	} //}}}
 
+	/* Prashant - Adding Change #1 */
+
+	public int getCaretWord()
+	{
+		String data = buffer.getText(0,getCaretPosition());
+		String[] dataArray = data.trim().split("\\s+");
+		return dataArray.length;
+	}
+
+	public int getWordCount()
+	{
+		String data = buffer.getText();
+		String[] dataArray = data.trim().split("\\s+");
+		return dataArray.length;
+	}
+
+	/* End */
+
 	//{{{ getMagicCaretPosition() method
 	/**
 	 * Returns an internal position used to keep the caret in one

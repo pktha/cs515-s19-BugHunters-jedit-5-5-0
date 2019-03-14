@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/jEdit.iml" filepath="$PROJECT_DIR$/jEdit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jedit-5-5-0.iml" filepath="$PROJECT_DIR$/jedit-5-5-0.iml" />
     </modules>
   </component>
 </project>
-

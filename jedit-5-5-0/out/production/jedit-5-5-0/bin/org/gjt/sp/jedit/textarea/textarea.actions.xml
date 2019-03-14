@@ -406,6 +406,20 @@
 		textArea.scrollDownPage();
 	</CODE>
 </ACTION>
+<!-- Prashant: Adding Change #3 to enable and disable scrollbar => Adding this here doesn't work -->
+	<ACTION NAME="enable-scroll">
+		<CODE>
+			textArea.enableScroll();
+		</CODE>
+	</ACTION>
+
+	<ACTION NAME="disable-scroll">
+		<CODE>
+			textArea.disableScroll();
+		</CODE>
+	</ACTION>
+
+	<!-- End of edit -->
 
 <ACTION NAME="scroll-to-current-line">
 	<CODE>

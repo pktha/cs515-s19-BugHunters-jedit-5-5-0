@@ -712,6 +712,19 @@ public abstract class TextArea extends JPanel
 			- (lastLinePartial ? 1 : 0));
 	} //}}}
 
+	/* Prashant Adding CH #3 */
+	public void disableScroll(){
+		horizontal.setVisible(false);
+		vertical.setVisible(false);
+	}
+
+	public void enableScroll(){
+		horizontal.setVisible(true);
+		vertical.setVisible(true);
+	}
+
+	/* End */
+
 	//{{{ scrollToCaret() method
 	/**
 	 * Ensures that the caret is visible by scrolling the text area if

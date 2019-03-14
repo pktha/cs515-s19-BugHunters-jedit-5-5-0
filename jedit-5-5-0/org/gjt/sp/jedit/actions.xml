@@ -1135,6 +1135,21 @@
 	</CODE>
 </ACTION>
 
+	<!-- Prashant: Adding Change #3 to enable and disable scrollbar -->
+	<ACTION NAME="enable-scroll">
+		<CODE>
+			textArea.enableScroll();
+		</CODE>
+	</ACTION>
+
+	<ACTION NAME="disable-scroll">
+		<CODE>
+			textArea.disableScroll();
+		</CODE>
+	</ACTION>
+
+	<!-- End of edit -->
+
 <ACTION NAME="scroll-down-line">
 	<CODE>
 		textArea.scrollDownLine();

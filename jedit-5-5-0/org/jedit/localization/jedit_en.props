@@ -280,6 +280,8 @@ toggle-full-screen.label=Toggle $full-screen mode
 
 #{{{ Scrolling menu
 scrolling.label=Scrollin$g
+enable-scroll.label=$Enable Scroll
+disable-scroll.label=D$isable Scroll
 scroll-to-current-line.label=Scroll $to Current Line
 scroll-and-center.label=$Scroll and Center Caret
 center-caret.label=$Center Caret on Screen

@@ -105,6 +105,10 @@
         <para><guimenu>View</guimenu>&gt;<guimenuitem>Unsplit
         Current</guimenuitem> (shortcut: <keycap>C+0</keycap>) removes the split
         containing the current TextArea only.</para>
+            <para><guimenu>View</guimenu>&gt;<guimenuitem>Enable
+                Scroll</guimenuitem> (shortcut: <keycap>A+1</keycap>) Enable scrolling.</para>
+            <para><guimenu>View</guimenu>&gt;<guimenuitem>Disable
+                Scroll</guimenuitem> (shortcut: <keycap>A+2</keycap>) Disable scrolling.</para>
 
         <para><guimenu>View</guimenu>&gt;<guimenuitem>Unsplit All</guimenuitem>
         (shortcut: <keycap>C+1</keycap>) removes all splits from the View.</para>

@@ -131,58 +131,7 @@ public class OptionGroupPane extends AbstractOptionPane implements TreeSelection
 
 		int lastIdx = nodes.length - 1;
 
-		for (int i = paneTree.isRootVisible() ? 0 : 1; i <= lastIdx; i++)
-		{
-			String label;
-			Object node = nodes[i];
-			if (node instanceof OptionPane)
-			{
-				optionPane = (OptionPane) node;
-				label = jEdit.getProperty("options." + optionPane.getName()
-					+ ".label");
-			}
-			else if (node instanceof OptionGroup)
-			{
-				label = ((OptionGroup) node).getLabel();
-			}
-			else if (node instanceof String)
-			{
-				label = jEdit.getProperty("options." + node + ".label");
-				optionPane = (OptionPane) deferredOptionPanes.get((String) node);
-				if (optionPane == null)
-				{
-					String propName = "options." + node + ".code";
-					String code = jEdit.getProperty(propName);
-					if (code != null)
-					{
-						optionPane = (OptionPane) BeanShell.eval(jEdit
-							.getActiveView(), BeanShell.getNameSpace(),
-							code);
-
-						if (optionPane != null)
-						{
-							deferredOptionPanes.put(node, optionPane);
-						}
-						else
-							continue;
-					}
-					else
-					{
-						Log.log(Log.ERROR, this, propName + " not defined");
-						continue;
-					}
-				}
-			}
-			else
-			{
-				continue;
-			}
-			if (label != null)
-				sb.append(label);
-
-			if (i > 0 && i < lastIdx)
-				sb.append(": ");
-		}
+		optionPane = getOptionPane(nodes, sb, optionPane, lastIdx);
 
 		if (optionPane == null)
 			return;
@@ -211,14 +160,77 @@ public class OptionGroupPane extends AbstractOptionPane implements TreeSelection
 		currentPane = optionPane;
 	} // }}}
 
-        // {{{ selectPane() methods
-	private boolean selectPane(OptionGroup node, String name)
+	private OptionPane getOptionPane(Object[] nodes, StringBuilder sb, OptionPane optionPane, int lastIdx) {
+		for (int i = paneTree.isRootVisible() ? 0 : 1; i <= lastIdx; i++) {
+			optionPane = getOptionPane(nodes[i], sb, optionPane, i > 0 && i < lastIdx);
+		}
+		return optionPane;
+	}
+
+	private OptionPane getOptionPane(Object node1, StringBuilder sb, OptionPane optionPane, boolean b) {
+		String label;
+		Object node = node1;
+		if (node instanceof OptionPane)
+		{
+			optionPane = (OptionPane) node;
+			label = jEdit.getProperty("options." + optionPane.getName()
+				+ ".label");
+		}
+		else if (node instanceof OptionGroup)
+		{
+			label = ((OptionGroup) node).getLabel();
+		}
+		else if (node instanceof String)
+		{
+			label = jEdit.getProperty("options." + node + ".label");
+			optionPane = (OptionPane) deferredOptionPanes.get((String) node);
+			if (optionPane == null)
+			{
+				String propName = "options." + node + ".code";
+				String code = jEdit.getProperty(propName);
+				if (code != null)
+				{
+					optionPane = (OptionPane) BeanShell.eval(jEdit
+						.getActiveView(), BeanShell.getNameSpace(),
+						code);
+
+					if (optionPane != null)
+					{
+						deferredOptionPanes.put(node, optionPane);
+					}
+					else
+						return optionPane;
+				}
+				else
+				{
+					Log.log(Log.ERROR, this, propName + " not defined");
+					return optionPane;
+				}
+			}
+		}
+		else
+		{
+			return optionPane;
+		}
+		if (label != null)
+			sb.append(label);
+
+		if (b)
+			sb.append(": ");
+		return optionPane;
+	}
+
+	// {{{ selectPane() methods
+	public boolean selectPane(OptionGroup node, String name)
 	{
 		return selectPane(node, name, new ArrayList<Object>());
-	} 
+	}
 
-	private boolean selectPane(OptionGroup node, String name, ArrayList<Object> path)
+	public boolean selectPane(OptionGroup node, String name, ArrayList<Object> path)
+//	private boolean selectPane(OptionGroup node, String name)
 	{
+//		ArrayList<Object> path = new ArrayList<Object> ();
+
 		path.add(node);
 
 		Enumeration<Object> e = node.getMembers();
@@ -270,7 +282,10 @@ public class OptionGroupPane extends AbstractOptionPane implements TreeSelection
 					try {
 						paneTree.setSelectionPath(treePath);
 					}
-					catch (NullPointerException npe) {}
+					catch (NullPointerException npe) {
+						Log.log(Log.WARNING, this,"Received null pointer: "+
+								npe.getMessage());
+					}
 
 					return true;
 				}

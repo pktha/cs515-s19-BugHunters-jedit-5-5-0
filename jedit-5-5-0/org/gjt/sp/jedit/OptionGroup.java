@@ -23,6 +23,11 @@
 
 package org.gjt.sp.jedit;
 
+import org.jedit.options.OptionGroupPane;
+import org.jedit.options.RefactorTest;
+
+import javax.swing.*;
+import javax.swing.tree.TreePath;
 import java.util.*;
 
 /**
@@ -35,6 +40,7 @@ import java.util.*;
  * @author Mike Dillon
  * @version $Id: OptionGroup.java 21831 2012-06-18 22:54:17Z ezust $
  */
+//public class OptionGroup implements RefactorTest
 public class OptionGroup
 {
 	
@@ -44,7 +50,26 @@ public class OptionGroup
 	protected final Vector<Object> members;
 	private boolean sort;
 	// }}}
-	
+
+//	@Override
+//	public boolean selectPaneHelper(Object obj, ArrayList<Object> path, JTree paneTree){
+//		OptionGroup grp = (OptionGroup) obj;
+//		if (grp.getName().equals(name))
+//		{
+//			path.add(grp);
+//			path.add(grp.getMember(0));
+//			TreePath treePath = new TreePath(path.toArray());
+//			if (treePath != null)
+//			{
+//				paneTree.scrollPathToVisible(treePath);
+//				paneTree.setSelectionPath(treePath);
+//
+//				return true;
+//			}
+//		}
+//		return false;
+//
+//	}
 	//{{{ OptionGroup constructor
 	/**
 	 * Creates an option group.

@@ -9,13 +9,13 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="jsr305" level="project" />
-    <orderEntry type="library" name="launch4j" level="project" />
-    <orderEntry type="library" name="fop" level="project" />
-    <orderEntry type="library" name="jedit" level="project" />
     <orderEntry type="library" name="docbook" level="project" />
-    <orderEntry type="library" name="jsr3052" level="project" />
     <orderEntry type="library" name="test" level="project" />
+    <orderEntry type="library" name="jedit" level="project" />
+    <orderEntry type="library" name="fop" level="project" />
+    <orderEntry type="library" name="launch4j" level="project" />
     <orderEntry type="library" name="ant-contrib" level="project" />
     <orderEntry type="library" name="jsr3051" level="project" />
+    <orderEntry type="library" name="jsr3052" level="project" />
   </component>
 </module>

@@ -286,6 +286,7 @@ public class OptionGroupPane extends AbstractOptionPane implements TreeSelection
 					catch (NullPointerException npe) {
 						Log.log(Log.WARNING, this,"Received null pointer: "+
 								npe.getMessage());
+						// Final change no error while manual validation.
 					}
 
 					return true;

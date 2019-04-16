@@ -750,6 +750,114 @@ public abstract class TextArea extends JPanel
 		scrollTo(line,offset - buffer.getLineStartOffset(line),
 			doElectricScroll);
 	}
+	@SuppressWarnings("MethodComplexity")
+	public void singleDragHelper(MouseEvent evt, boolean quickCopyDrag, boolean control, int dragStart ){
+		Log.log(Log.WARNING, this, "PKT::::drag...");
+		TextAreaPainter painter = getPainter();
+
+		int x = evt.getX();
+		int y = evt.getY();
+		if(y < 0)
+			y = 0;
+		else if(y >= painter.getHeight())
+			y = painter.getHeight() - 1;
+
+		int dot = xyToOffset(x,y,
+				(!painter.isBlockCaretEnabled()
+						&& !isOverwriteEnabled())
+						|| quickCopyDrag);
+		int dotLine = getLineOfOffset(dot);
+		int extraEndVirt = 0;
+
+		if(chunkCache.getLineInfo(	getLastScreenLine()).lastSubregion)
+		{
+			int screenLine = getScreenLineOfOffset(dot);
+			ChunkCache.LineInfo lineInfo = chunkCache.getLineInfo(screenLine);
+			int offset = getScreenLineEndOffset(screenLine);
+			if ((1 != offset - dot) || (lineInfo.lastSubregion))
+			{
+				offset--;
+			}
+			float dotLineWidth = offsetToXY(offset).x;
+			if(x > dotLineWidth)
+			{
+				extraEndVirt = (int)((x - dotLineWidth) / charWidth);
+				if(!painter.isBlockCaretEnabled()
+						&& !isOverwriteEnabled()
+						&& (x - getHorizontalOffset()) % charWidth > charWidth / 2)
+					extraEndVirt++;
+			}
+		}
+
+		resizeSelection(dragStart,dot,extraEndVirt,
+				isRectangularSelectionEnabled()
+						|| (control && ctrlForRectangularSelection));
+
+		if(quickCopyDrag)
+		{
+			// just scroll to the dragged location
+			scrollTo(dotLine,dot - getLineStartOffset(dotLine),false);
+		}
+		else
+		{
+			Point p = offsetToXY(dot);
+			if(dot != getCaretPosition())
+			{
+				// defer scroll to mouserelease if result is offscreen left without dragging that direction
+				moveCaretPosition(dot, (p.x < 0 && x > 1) ? NO_SCROLL : NORMAL_SCROLL);
+			}
+			else if(p.x < 0 && x < 1)
+			{
+				// caret already offscreen left, user now attempting to drag left
+				scrollToCaret(false);
+			}
+			if(isRectangularSelectionEnabled()
+					&& extraEndVirt != 0)
+			{
+				scrollTo(dotLine,dot - getLineStartOffset(dotLine)
+						+ extraEndVirt,false);
+			}
+		}
+	}
+
+	public void tripleDragHelper(int dragStartLine, MouseEvent evt){
+		TextAreaPainter painter = getPainter();
+
+		int offset = xyToOffset(evt.getX(),
+				Math.max(0,Math.min(painter.getHeight(),evt.getY())),
+				false);
+		int mouseLine = getLineOfOffset(offset);
+		int mark;
+		int mouse;
+		if(dragStartLine > mouseLine)
+		{
+			mark = getLineEndOffset(dragStartLine) - 1;
+			if(offset == getLineEndOffset(mouseLine) - 1)
+				mouse = offset;
+			else
+				mouse = getLineStartOffset(mouseLine);
+		}
+		else
+		{
+			mark = getLineStartOffset(dragStartLine);
+			if(offset == getLineStartOffset(mouseLine))
+				mouse = offset;
+			else if(offset == getLineEndOffset(mouseLine) - 1
+					&& mouseLine != getLineCount() - 1)
+				mouse = getLineEndOffset(mouseLine);
+			else
+				mouse = getLineEndOffset(mouseLine) - 1;
+		}
+
+		mouse = Math.min(getBuffer().getLength(),mouse);
+
+		if(mouse == getCaretPosition())
+			return;
+
+		resizeSelection(mark,mouse,0,false);
+		moveCaretPosition(mouse,false);
+
+	}
 
 	/**
 	 * Ensures that the specified location in the buffer is visible.

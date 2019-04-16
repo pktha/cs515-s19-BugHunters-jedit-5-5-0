@@ -23,8 +23,6 @@
 
 package org.gjt.sp.jedit;
 
-import org.jedit.options.OptionGroupPane;
-import org.jedit.options.RefactorTest;
 
 import javax.swing.*;
 import javax.swing.tree.TreePath;

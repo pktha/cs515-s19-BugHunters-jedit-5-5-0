@@ -116,7 +116,7 @@ public class jEdit
 	 * @param args The command line arguments
 	 */
 	public static void main(String[] args)
-	{
+	{	Log.log(Log.WARNING, jEdit.class,"TEST::::::");
 		StringList slargs = new StringList(args);
 		//{{{ Check for Java 1.8 or later
 		String javaVersion = System.getProperty("java.version");

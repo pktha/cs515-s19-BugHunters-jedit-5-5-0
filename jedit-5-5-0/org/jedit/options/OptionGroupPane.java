@@ -91,7 +91,7 @@ public class OptionGroupPane extends AbstractOptionPane implements TreeSelection
 	{
 		super(group.getName());
 		optionGroup = group;
-
+		Log.log(Log.WARNING, jEdit.class, "PKT:: check option group "+group.getName());
 		init();
 	}
 
@@ -242,6 +242,7 @@ public class OptionGroupPane extends AbstractOptionPane implements TreeSelection
 				OptionGroup grp = (OptionGroup) obj;
 				if (grp.getName().equals(name))
 				{
+					Log.log(Log.WARNING, this, "PKT:: "+grp.getName());
 					path.add(grp);
 					path.add(grp.getMember(0));
 					TreePath treePath = new TreePath(path.toArray());

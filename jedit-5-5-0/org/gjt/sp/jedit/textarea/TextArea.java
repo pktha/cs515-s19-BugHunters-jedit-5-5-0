@@ -1429,19 +1429,19 @@ public abstract class TextArea extends JPanel
 	 * Sets the entire text of this text area.
 	 * @param text the new content of the buffer
 	 */
-	public void setText(String text)
-	{
-		try
-		{
-			buffer.beginCompoundEdit();
-			buffer.remove(0,buffer.getLength());
-			buffer.insert(0,text);
-		}
-		finally
-		{
-			buffer.endCompoundEdit();
-		}
-	} //}}}
+//	public void setText(String text)
+//	{
+//		try
+//		{
+//			buffer.beginCompoundEdit();
+//			buffer.remove(0,buffer.getLength());
+//			buffer.insert(0,text);
+//		}
+//		finally
+//		{
+//			buffer.endCompoundEdit();
+//		}
+//	} //}}}
 
 	//{{{ Selection
 
@@ -4350,7 +4350,7 @@ loop:		for(int i = lineNo - 1; i >= 0; i--)
 
 		if(selection.length == 0)
 		{
-			setText(TextUtilities.spacesToTabs(
+			buffer.setText(TextUtilities.spacesToTabs(
 				getText(), buffer.getTabSize()));
 		}
 		else
@@ -4384,7 +4384,7 @@ loop:		for(int i = lineNo - 1; i >= 0; i--)
 
 		if(selection.length == 0)
 		{
-			setText(TextUtilities.tabsToSpaces(
+			buffer.setText(TextUtilities.tabsToSpaces(
 				getText(), buffer.getTabSize()));
 		}
 		else

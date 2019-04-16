@@ -290,12 +290,12 @@ public class ErrorsWidgetFactory implements StatusWidgetFactory
 			textArea.getBuffer().setReadOnly(false);
 			if (throwable == null)
 			{
-				textArea.setText(null);
+				textArea.getBuffer().setText(null);
 			}
 			else
 			{
 				throwable.printStackTrace(printStream);
-				textArea.setText(byteArrayOutputStream.toString());
+				textArea.getBuffer().setText(byteArrayOutputStream.toString());
 				textArea.setCaretPosition(0);
 				byteArrayOutputStream.reset();
 			}

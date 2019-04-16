@@ -960,24 +960,6 @@ public class JEditBuffer
 		}
 	}
 
-	/**
-	 * Indents all specified lines.
-	 * @param lines The line numbers
-	 * @since jEdit 3.2pre1
-	 */
-	public void indentLines(int[] lines)
-	{
-		try
-		{
-			beginCompoundEdit();
-			for (int line : lines)
-				indentLine(line, true);
-		}
-		finally
-		{
-			endCompoundEdit();
-		}
-	} //}}}
 
 	//{{{ simpleIndentLine() method
 	/**
@@ -1010,7 +992,37 @@ public class JEditBuffer
 			endCompoundEdit();
 		}
 	} //}}}
-
+	/**
+	 * Indents all specified lines.
+	 * @param lines The line numbers
+	 * @since jEdit 3.2pre1
+	 */
+	public void indentLines(int[] lines)
+	{
+		try
+		{
+			beginCompoundEdit();
+			for (int line : lines)
+				indentLine(line, true);
+		}
+		finally
+		{
+			endCompoundEdit();
+		}
+	} //}}}
+	public void setText(String text)
+	{
+		try
+		{
+			beginCompoundEdit();
+			remove(0,getLength());
+			insert(0,text);
+		}
+		finally
+		{
+			endCompoundEdit();
+		}
+	} //}}}
 	//{{{ indentLine() methods
 	/**
 	 * Indents the specified line.

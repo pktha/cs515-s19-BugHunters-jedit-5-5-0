@@ -221,20 +221,17 @@ public class Native2ASCIIEncoding implements Encoding
 				return result;
 			}
 			// read in remainder of possible escape sequence
+			return extract(result);
+		}
+
+		private int extract(int result) throws IOException, MalformedInputException {
+			int read;
 			char[] escape = { 'u', '\0', '\0', '\0', '\0' };
 			read = 1 + in.read(escape, 1, 4);
 			// EOF reached during escape sequence
 			if (read == 0)
 			{
-				if (permissive)
-				{
-					escaped = true;
-					in.unread('u');
-					return result;
-				} else
-				{
-					throw new MalformedInputException(1);
-				}
+				return exctracted_testver(result);
 			}
 			// read < 5 doesn't necessarily mean EOF but could also
 			// mean no more input available currently, so try to read on
@@ -245,15 +242,7 @@ public class Native2ASCIIEncoding implements Encoding
 				// enough input for an escape sequence
 				if (read2 == -1)
 				{
-					if (permissive)
-					{
-						escaped = true;
-						in.unread(escape, 0, read);
-						return result;
-					} else
-					{
-						throw new MalformedInputException(1);
-					}
+					return extracted_IF(result, read, escape);
 				}
 				read += read2;
 			}
@@ -261,23 +250,43 @@ public class Native2ASCIIEncoding implements Encoding
 			for (int i = 1; i < 5; i++)
 			{
 				char e = escape[i];
-				if (!(((e >= '0') && (e <= '9')) || ((e >= 'a') && (e <= 'f')) || ((e >= 'A') && (e
-														  <= 'F'))))
+				if (extracted(e))
 				{
-					if (permissive)
-					{
-						escaped = true;
-						in.unread(escape, 0, read);
-						return result;
-					} else
-					{
-						throw new MalformedInputException(1);
-					}
+					return extracted_IF(result, read, escape);
 				}
 			}
 			// valid unicode escape
 			escaped = false;
 			return Integer.parseInt(new String(escape, 1, 4), 16);
+		}
+
+		private int exctracted_testver(int result) throws IOException, MalformedInputException {
+			if (permissive)
+			{
+				escaped = true;
+				in.unread('u');
+				return result;
+			} else
+			{
+				throw new MalformedInputException(1);
+			}
+		}
+
+		private int extracted_IF(int result, int read, char[] escape) throws IOException, MalformedInputException {
+			if (permissive)
+			{
+				escaped = true;
+				in.unread(escape, 0, read);
+				return result;
+			} else
+			{
+				throw new MalformedInputException(1);
+			}
+		}
+
+		private boolean extracted(char e) {
+			return !(((e >= '0') && (e <= '9')) || ((e >= 'a') && (e <= 'f')) || ((e >= 'A') && (e
+													  <= 'F')));
 		}
 
 		@Override
@@ -385,9 +394,7 @@ outer:
 				for (int j = i + 2, j2 = i + 6; j < j2; j++)
 				{
 					char e = buf[j];
-					if (!(((e >= '0') && (e <= '9')) || ((e >= 'a') && (e <= 'f')) || ((e >= 'A')
-													   && (e
-													       <= 'F'))))
+					if (extracted(e))
 					{
 						// add to result buffer and continue to next character
 						// if permissive, otherwise throw exception
